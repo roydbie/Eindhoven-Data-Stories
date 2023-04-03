@@ -8,3 +8,4 @@
   * If you deleted feature(s): "Deleted: .........."
 * Only add comments if needed
 * ChatGPT is allowed to format code
+* I'm using the 'Prettier' extension for Visual Studio Code, make sure to format like this
