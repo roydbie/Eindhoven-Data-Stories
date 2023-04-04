@@ -7,12 +7,12 @@ function App() {
     <>
       <Header></Header>
       <div className="row">
-        <div className="col-2 px-5">
+        <div className="col-2 ps-3">
           <TopicMenu></TopicMenu>
         </div>
         <div className="col px-3">
           <h1 className="text-light ms-5">Data Leads</h1>
-          <div className="container-xl text-center">
+          <div className="container-fluid text-center">
             <div className="topic">Dit wordt dan een card</div>
             <div className="topic">.g-col-6</div>
             <div className="topic">.g-col-6</div>
