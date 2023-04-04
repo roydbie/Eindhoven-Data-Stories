@@ -28,6 +28,9 @@ body {
     border-radius: 0 0 20px 20px!important;
 }
 
+a {
+    text-decoration: none!important;
+}
 
 .form-control {
     font-size: 0.9rem!important;
