@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Index() {
   return (
     <div className="row">
-      <div className="col-2 ps-3">
+      <div className="col-3 ps-3">
         <TopicMenu></TopicMenu>
       </div>
       <div className="col">

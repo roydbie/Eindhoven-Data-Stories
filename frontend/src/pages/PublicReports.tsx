@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AppService } from "../services/app.service";
 import {
@@ -72,7 +72,7 @@ function PublicReports() {
 
     const iets: {
       label: string;
-      data: { x: number; y: number };
+      data: [{ x: number; y: number }];
       backgroundColor: string;
       borderColor: string;
     }[] = [];
@@ -84,7 +84,7 @@ function PublicReports() {
       ) {
         iets.push({
           label: element.name,
-          data: { x: element.residents, y: element.publicreports },
+          data: [{ x: element.residents, y: element.publicreports }],
           backgroundColor: "#ffcc00",
           borderColor: "#ffcc00",
         });
@@ -96,7 +96,9 @@ function PublicReports() {
       datasets: iets,
     });
 
-    console.log(iets);
+    useEffect(() => {
+      GetNeighbourhoodInfo();
+    }, []);
   };
 
   return (
@@ -116,7 +118,7 @@ function PublicReports() {
         >
           Get info
         </button>
-        <div className="w-50">
+        <div className="w-75">
           {chartData ? <Scatter options={options} data={chartData} /> : null}
         </div>
       </div>
