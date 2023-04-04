@@ -7,7 +7,7 @@ function Header() {
             <span
               className="input-group-text"
               id="basic-addon1"
-              style={{ backgroundColor: "#404040", border: "none" }}
+              style={{ backgroundColor: "#262626", border: "none" }}
             >
               <i className="bi bi-search" style={{ color: "white" }}></i>
             </span>
@@ -15,7 +15,7 @@ function Header() {
               type="text"
               className="form-control"
               placeholder="Search for topics"
-              style={{ backgroundColor: "#404040", border: "none" }}
+              style={{ backgroundColor: "#262626", border: "none" }}
             />
           </div>
         </div>

@@ -1,5 +1,6 @@
 body {
     background-color: #1c1c1c!important;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -9,11 +10,24 @@ body {
 .topic {
     width: 250px;
     height: 50px;
-    padding: 10px;
     margin: 10px;
-    display: inline-flex;
-    background-color: red;
+    display: inline-flex!important;
+    background-color: #262626!important;
+    width: 18rem;
+    border-radius: 20px!important;
+    cursor: pointer;
 }
+
+.card-img-top {
+    border-radius: 20px 20px 0 0!important;
+}
+
+.card-body {
+    --bs-card-spacer-x: 2rem;
+    --bs-card-spacer-y: 2rem;
+    border-radius: 0 0 20px 20px!important;
+}
+
 
 .form-control {
     font-size: 0.9rem!important;
