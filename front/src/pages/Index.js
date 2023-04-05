@@ -11,6 +11,18 @@ function Index() {
         <h1 className="text-light ms-5">Data Leads</h1>
         <div className="container-fluid">
           <DataLead
+            title="Neighbourhoods"
+            icons={[
+              "bi bi-building",
+              "bi bi-signpost-split",
+              "bi bi-cart4",
+              "bi bi-mortarboard",
+            ]}
+            link="neighbourhoods"
+            image="https://images.pexels.com/photos/6039193/pexels-photo-6039193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          ></DataLead>
+
+          <DataLead
             title="Public reports"
             icons={[
               "bi bi-flower1",
@@ -40,7 +52,7 @@ function Index() {
               "bi bi-houses",
               "bi bi-currency-exchange",
               "bi bi-tree",
-              "bi bi-emoji-smile",
+              "bi bi-building",
             ]}
             link="propertyvalue"
             image="https://images.pexels.com/photos/3935316/pexels-photo-3935316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
