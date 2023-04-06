@@ -13,7 +13,7 @@ function Topic() {
     <div className="row">
       <div className="col-3 ps-3">&nbsp;</div>
       <div className="col">
-        <h1 className="text-light ms-5">Data Leads</h1>
+        <h1 className="text-light ms-5">{data?.title}</h1>
         <div className="container-fluid">
           <p className="text-light">{data?.data}</p>
         </div>
