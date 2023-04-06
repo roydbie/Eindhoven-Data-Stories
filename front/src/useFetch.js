@@ -9,7 +9,12 @@ function useFetch(url) {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(url)
+      .get(url, {
+        method: "GET",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
+      })
       .then((response) => {
         setData(response.data);
       })

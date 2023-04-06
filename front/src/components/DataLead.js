@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function DataLead(props) {
   return (
-    <Link to={props.link} className="card topic">
+    <Link to={"/topic?url=" + props.link} className="card topic">
       <img src={props.image} className="card-img-top" alt="..." />
       <div className="card-body text-secondary">
         <span>
