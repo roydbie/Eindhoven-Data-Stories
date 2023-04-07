@@ -13,7 +13,7 @@ function TopicMenu(props) {
         "housing",
       ],
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2048px-Solid_white.svg.png",
+        "https://i.pinimg.com/originals/2f/6e/53/2f6e5390f6e129f0066177069de59073.jpg",
     },
     {
       title: "Nature and Environment",

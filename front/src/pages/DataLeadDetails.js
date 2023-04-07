@@ -1,7 +1,8 @@
 import { useSearchParams } from "react-router-dom";
 import useFetch from "../useFetch";
 import { Link } from "react-router-dom";
-function Topic() {
+
+function DataLeadDetails() {
   const [searchParams, setSearchParams] = useSearchParams();
   const url = searchParams.get("url");
 
@@ -18,7 +19,7 @@ function Topic() {
           className="btn btn-sm btn-outline-light mt-2"
           style={{ float: "right" }}
         >
-          <i class="bi bi-arrow-left"></i>
+          <i className="bi bi-arrow-left"></i>
         </Link>
       </div>
       <div className="col">
@@ -31,4 +32,4 @@ function Topic() {
   );
 }
 
-export default Topic;
+export default DataLeadDetails;
