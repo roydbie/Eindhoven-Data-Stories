@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function TopicMenu(props) {
+function Topics(props) {
   let items = [
     {
       title: "All topics",
@@ -90,4 +90,4 @@ function TopicMenu(props) {
   );
 }
 
-export default TopicMenu;
+export default Topics;
