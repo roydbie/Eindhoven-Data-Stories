@@ -1,10 +1,12 @@
 import Topics from "../components/Topics";
 import DataLead from "../components/DataLead";
+import { useState } from "react";
 
 function Index() {
   const DataLeads = [
     {
       title: "Neighbourhoods",
+      topics: ["infrastructure", "culture and recreation"],
       icons: [
         "bi bi-building",
         "bi bi-signpost-split",
@@ -17,6 +19,7 @@ function Index() {
     },
     {
       title: "Public reports",
+      topics: ["nature and environment"],
       icons: [
         "bi bi-flower1",
         "bi bi-house",
@@ -29,6 +32,7 @@ function Index() {
     },
     {
       title: "Playgrounds",
+      topics: ["culture and recreation"],
       icons: [
         "bi bi-geo",
         "bi bi-people-fill",
@@ -41,6 +45,7 @@ function Index() {
     },
     {
       title: "Property value",
+      topics: ["housing"],
       icons: [
         "bi bi-houses",
         "bi bi-currency-exchange",
@@ -52,16 +57,38 @@ function Index() {
         "https://images.pexels.com/photos/3935316/pexels-photo-3935316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
+
+  const [topics, updateTopics] = useState([
+    "nature and environment",
+    "infrastructure",
+    "management",
+    "culture and recreation",
+    "traffic",
+    "housing",
+  ]);
+
+  const filteredDataLeads = DataLeads.filter((element) => {
+    if (topics.some((r) => element.topics.indexOf(r) >= 0)) {
+      return element;
+    } else {
+      return null;
+    }
+  });
+
+  function TopicChange(topics) {
+    updateTopics(topics);
+  }
+
   return (
     <div className="row">
       <div className="col-3 ps-3">
-        <Topics></Topics>
+        <Topics topicSelected={TopicChange}></Topics>
       </div>
       <div className="col">
         <h1 className="text-light ms-5">Data Leads</h1>
         <div className="container-fluid">
-          {DataLeads.length > 0 &&
-            DataLeads.map((element) => (
+          {filteredDataLeads.length > 0 &&
+            filteredDataLeads.map((element) => (
               <DataLead
                 key={element.title}
                 title={element.title}
