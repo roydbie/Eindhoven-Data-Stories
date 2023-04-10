@@ -6,9 +6,30 @@ function DataLeadDetails() {
   const [searchParams, setSearchParams] = useSearchParams();
   const url = searchParams.get("url");
 
-  const { data, loading, error } = useFetch("http://127.0.0.1:7777/" + url);
+  const { data, loading, error } = useFetch(
+    "http://127.0.0.1:7777/" + url + "/1.1+Afvalbak"
+  );
 
-  if (loading) return <div className="spinner-border" role="status"></div>;
+  if (loading)
+    return (
+      <div className="row">
+        <div className="col-3 ps-3">
+          <Link
+            to="/"
+            className="btn btn-sm btn-outline-light mt-2"
+            style={{ float: "right" }}
+          >
+            <i className="bi bi-arrow-left"></i>
+          </Link>
+        </div>
+        <div className="col">
+          <h1 className="text-light ms-5">{data?.title}</h1>
+          <div className="container-fluid">
+            <div className="spinner-border text-light" role="status"></div>
+          </div>
+        </div>
+      </div>
+    );
   if (error) console.log(error);
 
   return (
@@ -25,7 +46,7 @@ function DataLeadDetails() {
       <div className="col">
         <h1 className="text-light ms-5">{data?.title}</h1>
         <div className="container-fluid">
-          <p className="text-light">{data?.data}</p>
+          <p className="text-light">{JSON.stringify(data?.data)}</p>
         </div>
       </div>
     </div>

@@ -12,9 +12,8 @@ h1 {
 }
 
 .topic {
-    width: 250px;
     height: 400px;
-    margin: 10px;
+    margin: 5px;
     display: inline-flex!important;
     background-color: #262626!important;
     width: 18rem;
