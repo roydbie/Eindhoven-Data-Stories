@@ -21,50 +21,6 @@ function DataLeadDetails() {
     "http://127.0.0.1:7777/" + url + "/1.1+Afvalbak"
   );
 
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      title: {
-        display: true,
-        text: "Public reports to residents ratio",
-      },
-    },
-    scales: {
-      x: {
-        border: { color: "white" },
-        title: {
-          display: true,
-          text: "Amount of residents in the neighbourhood",
-          color: "#ffffff",
-        },
-        grid: {
-          display: false,
-        },
-        ticks: {
-          color: "white",
-        },
-      },
-      y: {
-        border: { color: "white" },
-        title: {
-          display: true,
-          text: "Amount of public reports in the neighbourhood",
-          color: "#ffffff",
-        },
-        grid: {
-          display: false,
-        },
-        ticks: {
-          color: "white",
-        },
-      },
-    },
-  };
-
   if (loading)
     return (
       <div className="row">
@@ -101,8 +57,34 @@ function DataLeadDetails() {
         </div>
         <div className="col-7">
           <h1 className="text-light ms-5">{data?.title}</h1>
-          <div className="container-fluid" style={{ height: 600 }}>
-            <Scatter data={data?.data} options={options} />
+          <div className="container-fluid">
+            <ul>
+              {data?.components.map((component, index) => {
+                if (component.type === "text") {
+                  return (
+                    <p
+                      className="text-light"
+                      key={index}
+                      style={{
+                        whiteSpace: "pre-line",
+                        marginTop: 25,
+                      }}
+                    >
+                      {component.text}
+                    </p>
+                  );
+                } else if (component.type === "chart") {
+                  return (
+                    <div style={{ height: 600, marginTop: 50 }} key={index}>
+                      <Scatter
+                        data={component.data}
+                        options={component.options}
+                      />
+                    </div>
+                  );
+                }
+              })}
+            </ul>
           </div>
         </div>
       </div>
