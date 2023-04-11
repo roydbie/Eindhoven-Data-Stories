@@ -86,3 +86,8 @@ input.form-control:focus {
     background-color: white!important;
     color: black!important;
 }
+
+.form-select {
+    background-color: transparent!important;
+    color:white;
+}

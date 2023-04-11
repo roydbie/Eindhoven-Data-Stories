@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import DataLeadText from "../components/DataLeadText";
-import SelectCategoryScatterChart from "../components/publicreports/SelectCategoryScatterChart";
+import PublicReportsCategorySelect from "../components/publicreports/PublicReportsCategorySelect";
 
 function PublicReports() {
   return (
@@ -23,7 +23,10 @@ function PublicReports() {
               "The city of Eindhoven is one of the largest and most vibrant cities in the Netherlands, and it is known for its innovation, design, and technology. As with any city, there are various public reports that citizens can make regarding issues in the city's public spaces, such as potholes, broken streetlights, or litter. These reports are important because they allow the city to identify and address issues in a timely manner, which can improve the quality of life for residents and visitors.\n\nThe city of Eindhoven has made these public reports available in a public database, which allows citizens, researchers, and other interested parties to access and analyze the data. This database contains information on the location and nature of the reports, as well as other relevant details such as the date of the report, the neighbourhood, and the type of issue.\n\nIn this analysis, we will explore the public reports in the city of Eindhoven, with the aim of gaining insights into the issues that are most commonly reported and the areas of the city that are most affected. By doing so, we hope to contribute to the ongoing efforts to improve the city's public spaces and make Eindhoven an even better place to live, work, and visit."
             }
           ></DataLeadText>
-          <SelectCategoryScatterChart></SelectCategoryScatterChart>
+          <h3 className="text-light" style={{ marginTop: 50 }}>
+            Public reports per amount of residents
+          </h3>
+          <PublicReportsCategorySelect></PublicReportsCategorySelect>
           <br></br>
           <br></br>
         </div>
