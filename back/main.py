@@ -69,7 +69,7 @@ def publicreports(category):
 
     data = {'title': 'Public reports', 'data': [
         10, 11, 12, 13, 14], 'category': str(category)}
-    return json.dumps({"title": "Public reports", "data": chart_data})
+    return json.dumps({"title": "Public reports", "data": {"datasets": chart_data}})
 
 
 @ app.route('/neighbourhoods', methods=['GET'])
