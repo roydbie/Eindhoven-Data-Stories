@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import DataLeadDetails from "./pages/DataLeadDetails";
+import PublicReports from "./pages/PublicReports";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Index></Index>}></Route>
         <Route
-          path="topic"
-          element={<DataLeadDetails></DataLeadDetails>}
+          path="publicreports"
+          element={<PublicReports></PublicReports>}
         ></Route>
       </Routes>
     </BrowserRouter>
