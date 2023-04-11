@@ -65,7 +65,7 @@ def publicreports(category):
         if item.get('publicreports') != 0:
             chart_data.append({'label': item.get('name') + " (Residents, Public reports)",
                                'data': [{'x': item.get('residents'), 'y': item.get('publicreports')}],
-                               'borderColor': '#ff3d3d', 'backgroundColor': '#ff3d3d'})
+                               'borderColor': '#ffcc00', 'backgroundColor': '#ffcc00'})
 
     data = {'title': 'Public reports', 'data': [
         10, 11, 12, 13, 14], 'category': str(category)}
@@ -75,10 +75,12 @@ def publicreports(category):
             "components": [
                 {
                     "type": "text",
-                    "text": "The city of Eindhoven is one of the largest and most vibrant cities in the Netherlands, and it is known for its innovation, design, and technology. As with any city, there are various public reports that citizens can make regarding issues in the city's public spaces, such as potholes, broken streetlights, or litter. These reports are important because they allow the city to identify and address issues in a timely manner, which can improve the quality of life for residents and visitors.\n\nThe city of Eindhoven has made these public reports available in a public database, which allows citizens, researchers, and other interested parties to access and analyze the data. This database contains information on the location and nature of the reports, as well as other relevant details such as the date of the report, the neighborhood, and the type of issue.\n\nIn this analysis, we will explore the public reports in the city of Eindhoven, with the aim of gaining insights into the issues that are most commonly reported and the areas of the city that are most affected. By doing so, we hope to contribute to the ongoing efforts to improve the city's public spaces and make Eindhoven an even better place to live, work, and visit."
+                    "title": "Introduction",
+                    "text": "The city of Eindhoven is one of the largest and most vibrant cities in the Netherlands, and it is known for its innovation, design, and technology. As with any city, there are various public reports that citizens can make regarding issues in the city's public spaces, such as potholes, broken streetlights, or litter. These reports are important because they allow the city to identify and address issues in a timely manner, which can improve the quality of life for residents and visitors.\n\nThe city of Eindhoven has made these public reports available in a public database, which allows citizens, researchers, and other interested parties to access and analyze the data. This database contains information on the location and nature of the reports, as well as other relevant details such as the date of the report, the neighbourhood, and the type of issue.\n\nIn this analysis, we will explore the public reports in the city of Eindhoven, with the aim of gaining insights into the issues that are most commonly reported and the areas of the city that are most affected. By doing so, we hope to contribute to the ongoing efforts to improve the city's public spaces and make Eindhoven an even better place to live, work, and visit."
                 },
                 {
                     "type": "chart",
+                    "title": "Public reports per amount of residents",
                     "data": {"datasets": chart_data},
                     "options": {
                         "responsive": True,

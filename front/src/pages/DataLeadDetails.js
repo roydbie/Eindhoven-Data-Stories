@@ -62,25 +62,37 @@ function DataLeadDetails() {
               {data?.components.map((component, index) => {
                 if (component.type === "text") {
                   return (
-                    <p
-                      className="text-light"
-                      key={index}
-                      style={{
-                        whiteSpace: "pre-line",
-                        marginTop: 25,
-                      }}
-                    >
-                      {component.text}
-                    </p>
+                    <>
+                      <h3
+                        className="text-light"
+                        style={{ marginTop: 25, marginBottom: 25 }}
+                      >
+                        {component.title}
+                      </h3>
+                      <p
+                        className="text-light"
+                        key={index}
+                        style={{
+                          whiteSpace: "pre-line",
+                        }}
+                      >
+                        {component.text}
+                      </p>
+                    </>
                   );
                 } else if (component.type === "chart") {
                   return (
-                    <div style={{ height: 600, marginTop: 50 }} key={index}>
-                      <Scatter
-                        data={component.data}
-                        options={component.options}
-                      />
-                    </div>
+                    <>
+                      <h3 className="text-light" style={{ marginTop: 50 }}>
+                        {component.title}
+                      </h3>
+                      <div style={{ height: 600, marginTop: 50 }} key={index}>
+                        <Scatter
+                          data={component.data}
+                          options={component.options}
+                        />
+                      </div>
+                    </>
                   );
                 }
               })}
