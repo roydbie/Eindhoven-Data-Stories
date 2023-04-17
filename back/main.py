@@ -76,8 +76,8 @@ def publicreportsScatter(category):
     return json.dumps({"data": {"datasets": scatterChartData}})
 
 
-@app.route('/publicreports/bar/<category>', methods=['GET'])
-def publicreportsBar(category):
+@app.route('/publicreports/bar/<category>/<fewResidentsExcluded>', methods=['GET'])
+def publicreportsBar(category, fewResidentsExcluded):
 
     main_data_array = np.array([])
 
@@ -126,6 +126,11 @@ def publicreportsBar(category):
 
     # Turn the array into a dictionary
     publicreports_dict = {item['x']: item for item in publicreports_data}
+
+    for item in barChartArray:
+        if fewResidentsExcluded == "true":
+            if item['residents'] < 1000:
+                barChartArray.remove(item)
 
     # Then, iterate over the first list and add the corresponding object from the second list
     for item in barChartArray:

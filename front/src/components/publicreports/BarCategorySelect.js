@@ -3,10 +3,15 @@ import { useState } from "react";
 import React from "react";
 
 function BarCategorySelect() {
-  let [category, setCategory] = useState("1.1+Afvalbak");
+  const [category, setCategory] = useState("1.1+Afvalbak");
+  const [checked, setChecked] = useState(false);
 
   function selectChange(event) {
     setCategory(event.target.value);
+  }
+
+  function checkedChange(event) {
+    setChecked(event.target.checked);
   }
 
   const categories = [
@@ -77,20 +82,12 @@ function BarCategorySelect() {
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
 
-  const ref = React.useRef(null);
-
-  const handleClick = () => {
-    // The DOM element is also accessible here.
-    console.log(ref.current.value);
-  };
-
   return (
     <>
       <select
         className="form-select"
         onChange={selectChange}
         defaultValue={category}
-        ref={ref}
       >
         {categories.map((item, index) => {
           return (
@@ -104,9 +101,8 @@ function BarCategorySelect() {
         <input
           className="form-check-input"
           type="checkbox"
-          value=""
           id="flexCheckDefault"
-          onChange={handleClick}
+          onChange={checkedChange}
         />
         <label
           className="form-check-label text-light"
@@ -115,7 +111,7 @@ function BarCategorySelect() {
           Leave out neighbourhoods with less than 1000 residents
         </label>
       </div>
-      <BarChart category={category}></BarChart>
+      <BarChart category={category} fewResidentsExcluded={checked}></BarChart>
     </>
   );
 }
