@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import PublicReports from "./pages/PublicReports";
+import Playgrounds from "./pages/Playgrounds";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           path="publicreports"
           element={<PublicReports></PublicReports>}
         ></Route>
+        <Route path="playgrounds" element={<Playgrounds></Playgrounds>}></Route>
       </Routes>
     </BrowserRouter>
   );

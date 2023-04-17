@@ -41,7 +41,7 @@ a {
     text-decoration: none!important;
 }
 
-.form-control {
+.form-control, .form-check {
     font-size: 0.9rem!important;
     color: white!important;
 }

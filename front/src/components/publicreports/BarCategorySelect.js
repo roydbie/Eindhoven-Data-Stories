@@ -1,12 +1,14 @@
 import BarChart from "./BarChart";
 import { useState } from "react";
+import React from "react";
 
 function BarCategorySelect() {
-  const [category, setCategory] = useState("1.1+Afvalbak");
+  let [category, setCategory] = useState("1.1+Afvalbak");
 
   function selectChange(event) {
     setCategory(event.target.value);
   }
+
   const categories = [
     {
       value: "7.13+Vuurwerkoverlast",
@@ -75,12 +77,20 @@ function BarCategorySelect() {
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
 
+  const ref = React.useRef(null);
+
+  const handleClick = () => {
+    // The DOM element is also accessible here.
+    console.log(ref.current.value);
+  };
+
   return (
     <>
       <select
         className="form-select"
         onChange={selectChange}
         defaultValue={category}
+        ref={ref}
       >
         {categories.map((item, index) => {
           return (
@@ -90,9 +100,22 @@ function BarCategorySelect() {
           );
         })}
       </select>
-      <BarChart
-        category={category}
-      ></BarChart>
+      <div className="form-check mt-3">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+          onChange={handleClick}
+        />
+        <label
+          className="form-check-label text-light"
+          htmlFor="flexCheckDefault"
+        >
+          Leave out neighbourhoods with less than 1000 residents
+        </label>
+      </div>
+      <BarChart category={category}></BarChart>
     </>
   );
 }
