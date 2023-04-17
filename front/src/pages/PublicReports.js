@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import DataLeadText from "../components/DataLeadText";
-import PublicReportsCategorySelect from "../components/publicreports/PublicReportsCategorySelect";
+import ScatterCategorySelect from "../components/publicreports/ScatterCategorySelect";
+import BarCategorySelect from "../components/publicreports/BarCategorySelect";
 
 function PublicReports() {
   return (
@@ -24,9 +25,13 @@ function PublicReports() {
             }
           ></DataLeadText>
           <h3 className="text-light" style={{ marginTop: 50 }}>
-            Public reports per amount of residents
+            Average amount of reports per resident (Bar chart)
           </h3>
-          <PublicReportsCategorySelect></PublicReportsCategorySelect>
+          <BarCategorySelect></BarCategorySelect>
+          <h3 className="text-light" style={{ marginTop: 50 }}>
+            Public reports per amount of residents (Scatter plot)
+          </h3>
+          <ScatterCategorySelect></ScatterCategorySelect>
           <br></br>
           <br></br>
         </div>

@@ -1,7 +1,7 @@
-import PublicReportsScatterChart from "./PublicReportsScatterChart";
+import BarChart from "./BarChart";
 import { useState } from "react";
 
-function PublicReportsCategorySelect() {
+function BarCategorySelect() {
   const [category, setCategory] = useState("1.1+Afvalbak");
 
   function selectChange(event) {
@@ -90,11 +90,11 @@ function PublicReportsCategorySelect() {
           );
         })}
       </select>
-      <PublicReportsScatterChart
+      <BarChart
         category={category}
-      ></PublicReportsScatterChart>
+      ></BarChart>
     </>
   );
 }
 
-export default PublicReportsCategorySelect;
+export default BarCategorySelect;

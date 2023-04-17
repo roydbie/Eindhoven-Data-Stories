@@ -12,7 +12,7 @@ import { useLocation } from "react-router-dom";
 
 ChartJS.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
-function SelectCategoryScatterChart(props) {
+function ScatterChart(props) {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
@@ -21,7 +21,7 @@ function SelectCategoryScatterChart(props) {
         display: false,
       },
       title: {
-        display: true,
+        display: false,
         text: "Public reports to residents ratio",
       },
     },
@@ -78,4 +78,4 @@ function SelectCategoryScatterChart(props) {
     );
 }
 
-export default SelectCategoryScatterChart;
+export default ScatterChart;
