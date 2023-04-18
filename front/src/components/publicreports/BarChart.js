@@ -92,6 +92,20 @@ function BarChart(props) {
         <div style={{ height: 500, marginTop: 50 }}>
           <Bar data={data?.data} options={options} />
         </div>
+        <p className="text-light mt-3">
+          If we examine reports related to '{props.category}', we can observe
+          that the highest three entries are: <br></br>
+          <br></br>
+          <span className="ms-5">
+            <b>1.</b> {data.data.labels[0]} <br></br>
+          </span>
+          <span className="ms-5">
+            <b>2.</b> {data.data.labels[1]} <br></br>
+          </span>
+          <span className="ms-5">
+            <b>3.</b> {data.data.labels[2]} <br></br>
+          </span>
+        </p>
       </>
     );
   }
