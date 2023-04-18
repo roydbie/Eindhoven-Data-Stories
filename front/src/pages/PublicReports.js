@@ -25,11 +25,11 @@ function PublicReports() {
             }
           ></DataLeadText>
           <h3 className="text-light" style={{ marginTop: 50 }}>
-            Average amount of reports per resident (Bar chart)
+            Chart 1: Average amount of reports per resident
           </h3>
           <BarCategorySelect></BarCategorySelect>
           <h3 className="text-light" style={{ marginTop: 50 }}>
-            Public reports per amount of residents (Scatter plot)
+            Chart 2: Public reports per amount of residents
           </h3>
           <ScatterCategorySelect></ScatterCategorySelect>
           <br></br>
