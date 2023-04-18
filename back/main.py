@@ -129,7 +129,7 @@ def publicreportsBar(category, fewResidentsExcluded):
 
     for item in barChartArray:
         if fewResidentsExcluded == "true":
-            if item['residents'] < 1000:
+            if item['residents'] < 25:
                 barChartArray.remove(item)
 
     # Then, iterate over the first list and add the corresponding object from the second list

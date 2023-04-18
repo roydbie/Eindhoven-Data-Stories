@@ -108,7 +108,7 @@ function BarCategorySelect() {
           className="form-check-label text-light"
           htmlFor="flexCheckDefault"
         >
-          Leave out neighbourhoods with less than 1000 residents
+          Leave out neighbourhoods with less than 25 residents
         </label>
       </div>
       <BarChart category={category} fewResidentsExcluded={checked}></BarChart>
