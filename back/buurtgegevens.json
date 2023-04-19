@@ -1,0 +1,14 @@
+[
+  {
+    "year": 2020,
+    "records": [
+      {
+        "neighbourhood": "Achtse Barrier-Gunterslaer",
+        "personal_income": 35700,
+        "residents": 3721,
+        "unhappy_percentage": 4,
+        "prolonged_illness_percentage": 24
+      }
+    ]
+  }
+]

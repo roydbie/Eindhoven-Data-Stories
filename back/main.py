@@ -5,6 +5,8 @@ import requests
 from operator import itemgetter
 import numpy as np
 
+import pandas as pd
+
 
 app = Flask(__name__)
 CORS(app)
@@ -162,6 +164,15 @@ def publicreportsBar(category, fewResidentsExcluded):
             barChartData['datasets'][0]['borderColor'].append('#ffcc00')
 
     return json.dumps({"data": barChartData})
+
+
+@app.route('/json', methods=['GET'])
+def jooooooo():
+
+    df = pd.read_json('buurtgegevens.json')
+
+
+    return df.to_json(orient = 'records')
 
 
 if __name__ == '__main__':
