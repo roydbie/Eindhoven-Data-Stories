@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import DataLeadText from "../components/DataLeadText";
 import ScatterCategorySelect from "../components/publicreports/ScatterCategorySelect";
 import BarCategorySelect from "../components/publicreports/BarCategorySelect";
+import D3BarChart from "../components/publicreports/D3BarChart";
 
 function PublicReports() {
   return (
@@ -34,6 +35,7 @@ function PublicReports() {
           <ScatterCategorySelect></ScatterCategorySelect>
           <br></br>
           <br></br>
+          <D3BarChart></D3BarChart>
         </div>
       </div>
     </div>
