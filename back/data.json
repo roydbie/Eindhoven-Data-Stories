@@ -1,0 +1,912 @@
+[
+  {
+    "neighbourhood": "Achtse Barrier-Gunterslaer",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 35700,
+      "residents": 3721,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 24
+    }
+  },
+  {
+    "neighbourhood": "Achtse Barrier-Hoeven",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 34400,
+      "residents": 3989,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Achtse Barrier-Spaaihoef",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 38600,
+      "residents": 4505,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Barrier",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 31600,
+      "residents": 2130,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Bennekel-Oost",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 27800,
+      "residents": 3402,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Bennekel-West, Gagelbosch",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 27600,
+      "residents": 3388,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Bergen",
+    "district": "Stadsdeel Centrum",
+    "2020": {
+      "personal_income": 42000,
+      "residents": 2727,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 15
+    }
+  },
+  {
+    "neighbourhood": "Binnenstad",
+    "district": "Stadsdeel Centrum",
+    "2020": {
+      "personal_income": 38500,
+      "residents": 3750,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Blaarthem",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 28800,
+      "residents": 2448,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Blixembosch-Oost",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 44100,
+      "residents": 7246,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Blixembosch-West",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 45400,
+      "residents": 2069,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Bloemenplein",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 32100,
+      "residents": 1206,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Bosrijk",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 59700,
+      "residents": 423,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Burghplan",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 30000,
+      "residents": 3057,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Doornakkers-Oost",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 25000,
+      "residents": 2905,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Doornakkers-West",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 28500,
+      "residents": 3482,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Drents Dorp",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 27700,
+      "residents": 2391,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Driehoeksbos",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 49800,
+      "residents": 968,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 24
+    }
+  },
+  {
+    "neighbourhood": "Eckart",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 26300,
+      "residents": 4302,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Eikenburg",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 51900,
+      "residents": 4302,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Eliasterrein, Vonderkwartier",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 40100,
+      "residents": 3166,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Elzent-Noord",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 54300,
+      "residents": 1074,
+      "unhappy_percentage": 1,
+      "prolonged_illness_percentage": 15
+    }
+  },
+  {
+    "neighbourhood": "Elzent-Zuid",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 65600,
+      "residents": 301,
+      "unhappy_percentage": 1,
+      "prolonged_illness_percentage": 15
+    }
+  },
+  {
+    "neighbourhood": "Engelsbergen",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 42500,
+      "residents": 635,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Genderbeemd",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 35700,
+      "residents": 3628,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 29
+    }
+  },
+  {
+    "neighbourhood": "Genderdal",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 26600,
+      "residents": 2957,
+      "unhappy_percentage": 9,
+      "prolonged_illness_percentage": 28
+    }
+  },
+  {
+    "neighbourhood": "Generalenbuurt",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 30100,
+      "residents": 5437,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 27
+    }
+  },
+  {
+    "neighbourhood": "Genneperzijde",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 43000,
+      "residents": 1361,
+      "unhappy_percentage": 1,
+      "prolonged_illness_percentage": 15
+    }
+  },
+  {
+    "neighbourhood": "Gerardusplein",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 38200,
+      "residents": 3374,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Gijzenrooi",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 47700,
+      "residents": 1818,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Gildebuurt",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 30300,
+      "residents": 1681,
+      "unhappy_percentage": 9,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Grasrijk",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 46600,
+      "residents": 5845,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Hagenkamp",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 29100,
+      "residents": 1183,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Hanevoet",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 31400,
+      "residents": 3688,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 23
+    }
+  },
+  {
+    "neighbourhood": "Heesterakker",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 37700,
+      "residents": 2678,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Hemelrijken",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 25400,
+      "residents": 3870,
+      "unhappy_percentage": 9,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Het Ven",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 29500,
+      "residents": 3932,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 17
+    }
+  },
+  {
+    "neighbourhood": "Irisbuurt",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 39000,
+      "residents": 2345,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Jagershoef",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 25600,
+      "residents": 3527,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 36
+    }
+  },
+  {
+    "neighbourhood": "Joriskwartier",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 35200,
+      "residents": 1298,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Karpen",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 90700,
+      "residents": 455,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "Kerkdorp Acht",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 43000,
+      "residents": 3547,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Kerstroosplein",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 28400,
+      "residents": 1829,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Koudenhoven",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 80900,
+      "residents": 516,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "Kronehoef",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 29700,
+      "residents": 4182,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 20
+    }
+  },
+  {
+    "neighbourhood": "Kruidenbuurt",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 32800,
+      "residents": 3067,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 21
+    }
+  },
+  {
+    "neighbourhood": "Lakerlopen",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 30100,
+      "residents": 3300,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 21
+    }
+  },
+  {
+    "neighbourhood": "Lievendaal",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 30600,
+      "residents": 3157,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Limbeek-Noord",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 27700,
+      "residents": 2463,
+      "unhappy_percentage": 11,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Limbeek-Zuid",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 28600,
+      "residents": 1405,
+      "unhappy_percentage": 11,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Looiakkers",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 37100,
+      "residents": 571,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Luytelaer",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 53400,
+      "residents": 942,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Meerrijk",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 46500,
+      "residents": 670,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Mensfort",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 28200,
+      "residents": 3096,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 24
+    }
+  },
+  {
+    "neighbourhood": "Muschberg, Geestenberg",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 28600,
+      "residents": 3995,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Nieuwe Erven",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 27600,
+      "residents": 1099,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Ooievaarsnest",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 49800,
+      "residents": 893,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 23
+    }
+  },
+  {
+    "neighbourhood": "Oude Gracht-Oost",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 46400,
+      "residents": 1336,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Oude Gracht-West",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 30700,
+      "residents": 2860,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Oude Spoorbaan",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 35100,
+      "residents": 2088,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Oude Toren",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 28900,
+      "residents": 1628,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "Philipsdorp",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 38000,
+      "residents": 3099,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Prinsejagt",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 30100,
+      "residents": 4742,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 24
+    }
+  },
+  {
+    "neighbourhood": "Puttense Dreef",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 51000,
+      "residents": 1246,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Rapelenburg",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 36500,
+      "residents": 1133,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Rapenland",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 27700,
+      "residents": 2371,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 24
+    }
+  },
+  {
+    "neighbourhood": "Rochusbuurt",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 34700,
+      "residents": 1778,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 12
+    }
+  },
+  {
+    "neighbourhood": "Roosten",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 60400,
+      "residents": 726,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Schoot",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 31500,
+      "residents": 3247,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 17
+    }
+  },
+  {
+    "neighbourhood": "Schouwbroek",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 32600,
+      "residents": 1532,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Schrijversbuurt",
+    "district": "Stadsdeel Gestel",
+    "2020": {
+      "personal_income": 41600,
+      "residents": 3584,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 18
+    }
+  },
+  {
+    "neighbourhood": "Schuttersbosch",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 46800,
+      "residents": 618,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 16
+    }
+  },
+  {
+    "neighbourhood": "Sintenbuurt",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 34600,
+      "residents": 1830,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Strijp S",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 39900,
+      "residents": 1665,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "'t Hofke",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 29300,
+      "residents": 3683,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "'t Hool",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 29800,
+      "residents": 2256,
+      "unhappy_percentage": 10,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Tempel",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 29200,
+      "residents": 5079,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 26
+    }
+  },
+  {
+    "neighbourhood": "Tivoli",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 23800,
+      "residents": 1450,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 25
+    }
+  },
+  {
+    "neighbourhood": "Tongelresche Akkers",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 44500,
+      "residents": 1453,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 22
+    }
+  },
+  {
+    "neighbourhood": "Tuindorp",
+    "district": "Stadsdeel Stratum",
+    "2020": {
+      "personal_income": 40100,
+      "residents": 2952,
+      "unhappy_percentage": 5,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Vaartbroek",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 27900,
+      "residents": 5242,
+      "unhappy_percentage": 9,
+      "prolonged_illness_percentage": 26
+    }
+  },
+  {
+    "neighbourhood": "Villapark",
+    "district": "Stadsdeel Tongelre",
+    "2020": {
+      "personal_income": 57900,
+      "residents": 2261,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "Vlokhoven",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 26100,
+      "residents": 3538,
+      "unhappy_percentage": 10,
+      "prolonged_illness_percentage": 29
+    }
+  },
+  {
+    "neighbourhood": "Waterrijk",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 53500,
+      "residents": 2228,
+      "unhappy_percentage": 4,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Winkelcentrum",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 39300,
+      "residents": 2261,
+      "unhappy_percentage": 10,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Witte Dame",
+    "district": "Stadsdeel Centrum",
+    "2020": {
+      "personal_income": 47400,
+      "residents": 2162,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 15
+    }
+  },
+  {
+    "neighbourhood": "Woenselse Heide",
+    "district": "Stadsdeel Woensel-Noord",
+    "2020": {
+      "personal_income": 29100,
+      "residents": 5252,
+      "unhappy_percentage": 6,
+      "prolonged_illness_percentage": 32
+    }
+  },
+  {
+    "neighbourhood": "Woenselse Watermolen",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 44900,
+      "residents": 1362,
+      "unhappy_percentage": 7,
+      "prolonged_illness_percentage": 13
+    }
+  },
+  {
+    "neighbourhood": "Woensel-West",
+    "district": "Stadsdeel Woensel-Zuid",
+    "2020": {
+      "personal_income": 27200,
+      "residents": 3878,
+      "unhappy_percentage": 8,
+      "prolonged_illness_percentage": 19
+    }
+  },
+  {
+    "neighbourhood": "Zandrijk",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 41200,
+      "residents": 2940,
+      "unhappy_percentage": 2,
+      "prolonged_illness_percentage": 14
+    }
+  },
+  {
+    "neighbourhood": "Zwaanstraat",
+    "district": "Stadsdeel Strijp",
+    "2020": {
+      "personal_income": 59100,
+      "residents": 902,
+      "unhappy_percentage": 3,
+      "prolonged_illness_percentage": 16
+    }
+  }
+]

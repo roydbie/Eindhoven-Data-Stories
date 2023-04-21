@@ -5,17 +5,17 @@ import { useState } from "react";
 function Index() {
   const DataLeads = [
     {
-      title: "Neighbourhoods",
-      topics: ["infrastructure", "culture and recreation"],
+      title: "Income related to health",
+      topics: ["management"],
       icons: [
-        "bi bi-building",
-        "bi bi-signpost-split",
-        "bi bi-cart4",
-        "bi bi-mortarboard",
+        "bi bi-lungs",
+        "bi bi-hospital",
+        "bi bi-emoji-laughing",
+        "bi bi-piggy-bank",
       ],
-      url: "neighbourhoods",
+      url: "incomevs",
       image:
-        "https://images.pexels.com/photos/6039193/pexels-photo-6039193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       title: "Public reports",

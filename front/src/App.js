@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import PublicReports from "./pages/PublicReports";
 import Playgrounds from "./pages/Playgrounds";
+import Incomevs from "./pages/Incomevs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           element={<PublicReports></PublicReports>}
         ></Route>
         <Route path="playgrounds" element={<Playgrounds></Playgrounds>}></Route>
+        <Route path="incomevs" element={<Incomevs></Incomevs>}></Route>
       </Routes>
     </BrowserRouter>
   );

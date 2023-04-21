@@ -166,13 +166,44 @@ def publicreportsBar(category, fewResidentsExcluded):
     return json.dumps({"data": barChartData})
 
 
-@app.route('/json', methods=['GET'])
+@app.route('/incomevs', methods=['GET'])
 def jooooooo():
 
-    df = pd.read_json('buurtgegevens.json')
+    df = pd.read_json('data.json').to_json(orient='records')
 
+    dfData = json.loads(df)
 
-    return df.to_json(orient = 'records')
+    bubbleChartData = {
+        "datasets": [],
+    }
+
+    for item in dfData:
+        if item.get("district") == "Stadsdeel Tongelre":
+            borderColor = "rgba(125, 235, 0, 1)"
+            backgroundColor = "rgba(125, 235, 0, 0.75)"
+        elif item.get("district") == "Stadsdeel Strijp":
+            borderColor = "rgba(255, 230, 0, 1)"
+            backgroundColor = "rgba(255, 230, 0, 0.75)"
+        elif item.get("district") == "Stadsdeel Stratum":
+            borderColor = "rgba(0, 214, 233, 1)"
+            backgroundColor = "rgba(0, 214, 233, 0.75)"
+        elif item.get("district") == "Stadsdeel Woensel-Noord":
+            borderColor = "rgba(255, 33, 66, 1)"
+            backgroundColor = "rgba(255, 33, 66, 0.75)"
+        elif item.get("district") == "Stadsdeel Gestel":
+            borderColor = "rgba(88, 135, 255, 1)"
+            backgroundColor = "rgba(88, 135, 255, 0.75)"
+        elif item.get("district") == "Stadsdeel Centrum":
+            borderColor = "rgba(255, 133, 88, 1)"
+            backgroundColor = "rgba(255, 133, 88, 0.75)"
+        elif item.get("district") == "Stadsdeel Woensel-Zuid":
+            borderColor = "rgba(227, 88, 255, 1)"
+            backgroundColor = "rgba(227, 88, 255, 0.75)"
+
+        bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": item.get("2020").get("prolonged_illness_percentage"), "x": item.get("2020").get(
+            "personal_income"), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
+
+    return json.dumps({"data": bubbleChartData})
 
 
 if __name__ == '__main__':
