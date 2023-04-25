@@ -211,6 +211,11 @@ def income(category):
 
     return json.dumps({"data": bubbleChartData})
 
+@app.route('/test', methods=['GET'])
+def test():
+    x=10*10
+    return str(x) 
+
 
 if __name__ == '__main__':
     app.run(port=7777)
