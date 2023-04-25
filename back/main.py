@@ -166,8 +166,8 @@ def publicreportsBar(category, fewResidentsExcluded):
     return json.dumps({"data": barChartData})
 
 
-@app.route('/incomevs', methods=['GET'])
-def jooooooo():
+@app.route('/incomevs/<category>', methods=['GET'])
+def income(category):
 
     df = pd.read_json('data.json').to_json(orient='records')
 
@@ -200,7 +200,12 @@ def jooooooo():
             borderColor = "rgba(227, 88, 255, 1)"
             backgroundColor = "rgba(227, 88, 255, 0.75)"
 
-        bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": item.get("2020").get("prolonged_illness_percentage"), "x": item.get("2020").get(
+        if category == "longtermillness":
+            y = item.get("2020").get("prolonged_illness_percentage")
+        else:
+            y = item.get("2020").get("unhappy_percentage")
+
+        bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": y, "x": item.get("2020").get(
             "personal_income"), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
 
     return json.dumps({"data": bubbleChartData})

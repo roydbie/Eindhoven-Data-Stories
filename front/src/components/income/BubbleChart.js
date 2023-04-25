@@ -11,7 +11,7 @@ import { useLocation } from "react-router-dom";
 
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend);
 
-function BubbleChart() {
+function BubbleChart(props) {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
@@ -63,7 +63,7 @@ function BubbleChart() {
   const location = useLocation();
 
   const { data, loading, error } = useFetch(
-    "http://127.0.0.1:7777" + location.pathname
+    "http://127.0.0.1:7777" + location.pathname + "/" + props.category
   );
 
   if (loading)
@@ -77,7 +77,7 @@ function BubbleChart() {
   if (data) {
     return (
       <>
-        <div style={{ height: 800 }}>
+        <div style={{ height: 600 }}>
           <Bubble data={data?.data} options={options} />
         </div>
       </>

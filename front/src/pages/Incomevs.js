@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import BubbleChart from "../components/income/BubbleChart";
-import DataLeadText from "../components/DataLeadText";
+import BubbleCategorySelect from "../components/income/BubbleCategorySelect";
 
 function Incomevs() {
   return (
@@ -22,7 +21,7 @@ function Incomevs() {
       </div>
       <div className="row">
         <div className="col-10 mx-auto">
-          <BubbleChart></BubbleChart>
+          <BubbleCategorySelect></BubbleCategorySelect>
           <br></br>
         </div>
       </div>
