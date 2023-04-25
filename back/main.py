@@ -11,7 +11,7 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-#Test
+
 
 @app.route('/publicreports/scatter/<category>', methods=['GET'])
 def publicreportsScatter(category):
