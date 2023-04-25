@@ -213,8 +213,11 @@ def income(category):
 
 @app.route('/test', methods=['GET'])
 def test():
-    x=10*10
-    return str(x) 
+    df = pd.read_json('data.json').to_json(orient='records')
+
+    dfData = json.loads(df)
+
+    return json.dumps(dfData)
 
 
 if __name__ == '__main__':
