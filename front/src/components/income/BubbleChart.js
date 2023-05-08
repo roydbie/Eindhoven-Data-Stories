@@ -26,7 +26,7 @@ function BubbleChart(props) {
     },
     scales: {
       x: {
-        beginAtZero: false,
+        beginAtZero: true,
         border: { color: "white" },
         title: {
           display: true,
@@ -42,7 +42,7 @@ function BubbleChart(props) {
         },
       },
       y: {
-        beginAtZero: false,
+        beginAtZero: true,
         border: { color: "white" },
         title: {
           display: true,
