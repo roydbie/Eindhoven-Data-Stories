@@ -181,19 +181,19 @@ def income(category, districts):
 
     for item in dfData:
         if item.get("district") in districtsArray or districtsArray == "":
-            if item.get("district") == "Stadsdeel Tongelre":
+            if item.get("district") == "Tongelre":
                 backgroundColor = "rgba(125, 235, 0, 0.75)"
-            elif item.get("district") == "Stadsdeel Strijp":
+            elif item.get("district") == "Strijp":
                 backgroundColor = "rgba(255, 230, 0, 0.75)"
-            elif item.get("district") == "Stadsdeel Stratum":
+            elif item.get("district") == "Stratum":
                 backgroundColor = "rgba(0, 214, 233, 0.75)"
-            elif item.get("district") == "Stadsdeel Woensel-Noord":
+            elif item.get("district") == "Woensel-Noord":
                 backgroundColor = "rgba(255, 33, 66, 0.75)"
-            elif item.get("district") == "Stadsdeel Gestel":
+            elif item.get("district") == "Gestel":
                 backgroundColor = "rgba(88, 135, 255, 0.75)"
-            elif item.get("district") == "Stadsdeel Centrum":
+            elif item.get("district") == "Centrum":
                 backgroundColor = "rgba(255, 133, 88, 0.75)"
-            elif item.get("district") == "Stadsdeel Woensel-Zuid":
+            elif item.get("district") == "Woensel-Zuid":
                 backgroundColor = "rgba(227, 88, 255, 0.75)"
 
             if category == "longtermillness":

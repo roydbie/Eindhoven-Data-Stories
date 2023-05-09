@@ -1,7 +1,7 @@
 [
   {
     "neighbourhood": "Achtse Barrier-Gunterslaer",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 35700,
       "residents": 3721,
@@ -11,7 +11,7 @@
   },
   {
     "neighbourhood": "Achtse Barrier-Hoeven",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 34400,
       "residents": 3989,
@@ -21,7 +21,7 @@
   },
   {
     "neighbourhood": "Achtse Barrier-Spaaihoef",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 38600,
       "residents": 4505,
@@ -31,7 +31,7 @@
   },
   {
     "neighbourhood": "Barrier",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 31600,
       "residents": 2130,
@@ -41,7 +41,7 @@
   },
   {
     "neighbourhood": "Bennekel-Oost",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 27800,
       "residents": 3402,
@@ -51,7 +51,7 @@
   },
   {
     "neighbourhood": "Bennekel-West, Gagelbosch",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 27600,
       "residents": 3388,
@@ -61,7 +61,7 @@
   },
   {
     "neighbourhood": "Bergen",
-    "district": "Stadsdeel Centrum",
+    "district": "Centrum",
     "2020": {
       "personal_income": 42000,
       "residents": 2727,
@@ -71,7 +71,7 @@
   },
   {
     "neighbourhood": "Binnenstad",
-    "district": "Stadsdeel Centrum",
+    "district": "Centrum",
     "2020": {
       "personal_income": 38500,
       "residents": 3750,
@@ -81,7 +81,7 @@
   },
   {
     "neighbourhood": "Blaarthem",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 28800,
       "residents": 2448,
@@ -91,7 +91,7 @@
   },
   {
     "neighbourhood": "Blixembosch-Oost",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 44100,
       "residents": 7246,
@@ -101,7 +101,7 @@
   },
   {
     "neighbourhood": "Blixembosch-West",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 45400,
       "residents": 2069,
@@ -111,7 +111,7 @@
   },
   {
     "neighbourhood": "Bloemenplein",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 32100,
       "residents": 1206,
@@ -121,7 +121,7 @@
   },
   {
     "neighbourhood": "Bosrijk",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 59700,
       "residents": 423,
@@ -131,7 +131,7 @@
   },
   {
     "neighbourhood": "Burghplan",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 30000,
       "residents": 3057,
@@ -141,7 +141,7 @@
   },
   {
     "neighbourhood": "Doornakkers-Oost",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 25000,
       "residents": 2905,
@@ -151,7 +151,7 @@
   },
   {
     "neighbourhood": "Doornakkers-West",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 28500,
       "residents": 3482,
@@ -161,7 +161,7 @@
   },
   {
     "neighbourhood": "Drents Dorp",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 27700,
       "residents": 2391,
@@ -171,7 +171,7 @@
   },
   {
     "neighbourhood": "Driehoeksbos",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 49800,
       "residents": 968,
@@ -181,7 +181,7 @@
   },
   {
     "neighbourhood": "Eckart",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 26300,
       "residents": 4302,
@@ -191,7 +191,7 @@
   },
   {
     "neighbourhood": "Eikenburg",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 51900,
       "residents": 4302,
@@ -201,7 +201,7 @@
   },
   {
     "neighbourhood": "Eliasterrein, Vonderkwartier",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 40100,
       "residents": 3166,
@@ -211,7 +211,7 @@
   },
   {
     "neighbourhood": "Elzent-Noord",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 54300,
       "residents": 1074,
@@ -221,7 +221,7 @@
   },
   {
     "neighbourhood": "Elzent-Zuid",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 65600,
       "residents": 301,
@@ -231,7 +231,7 @@
   },
   {
     "neighbourhood": "Engelsbergen",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 42500,
       "residents": 635,
@@ -241,7 +241,7 @@
   },
   {
     "neighbourhood": "Genderbeemd",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 35700,
       "residents": 3628,
@@ -251,7 +251,7 @@
   },
   {
     "neighbourhood": "Genderdal",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 26600,
       "residents": 2957,
@@ -261,7 +261,7 @@
   },
   {
     "neighbourhood": "Generalenbuurt",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 30100,
       "residents": 5437,
@@ -271,7 +271,7 @@
   },
   {
     "neighbourhood": "Genneperzijde",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 43000,
       "residents": 1361,
@@ -281,7 +281,7 @@
   },
   {
     "neighbourhood": "Gerardusplein",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 38200,
       "residents": 3374,
@@ -291,7 +291,7 @@
   },
   {
     "neighbourhood": "Gijzenrooi",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 47700,
       "residents": 1818,
@@ -301,7 +301,7 @@
   },
   {
     "neighbourhood": "Gildebuurt",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 30300,
       "residents": 1681,
@@ -311,7 +311,7 @@
   },
   {
     "neighbourhood": "Grasrijk",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 46600,
       "residents": 5845,
@@ -321,7 +321,7 @@
   },
   {
     "neighbourhood": "Hagenkamp",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 29100,
       "residents": 1183,
@@ -331,7 +331,7 @@
   },
   {
     "neighbourhood": "Hanevoet",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 31400,
       "residents": 3688,
@@ -341,7 +341,7 @@
   },
   {
     "neighbourhood": "Heesterakker",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 37700,
       "residents": 2678,
@@ -351,7 +351,7 @@
   },
   {
     "neighbourhood": "Hemelrijken",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 25400,
       "residents": 3870,
@@ -361,7 +361,7 @@
   },
   {
     "neighbourhood": "Het Ven",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 29500,
       "residents": 3932,
@@ -371,7 +371,7 @@
   },
   {
     "neighbourhood": "Irisbuurt",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 39000,
       "residents": 2345,
@@ -381,7 +381,7 @@
   },
   {
     "neighbourhood": "Jagershoef",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 25600,
       "residents": 3527,
@@ -391,7 +391,7 @@
   },
   {
     "neighbourhood": "Joriskwartier",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 35200,
       "residents": 1298,
@@ -401,7 +401,7 @@
   },
   {
     "neighbourhood": "Karpen",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 90700,
       "residents": 455,
@@ -411,7 +411,7 @@
   },
   {
     "neighbourhood": "Kerkdorp Acht",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 43000,
       "residents": 3547,
@@ -421,7 +421,7 @@
   },
   {
     "neighbourhood": "Kerstroosplein",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 28400,
       "residents": 1829,
@@ -431,7 +431,7 @@
   },
   {
     "neighbourhood": "Koudenhoven",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 80900,
       "residents": 516,
@@ -441,7 +441,7 @@
   },
   {
     "neighbourhood": "Kronehoef",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 29700,
       "residents": 4182,
@@ -451,7 +451,7 @@
   },
   {
     "neighbourhood": "Kruidenbuurt",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 32800,
       "residents": 3067,
@@ -461,7 +461,7 @@
   },
   {
     "neighbourhood": "Lakerlopen",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 30100,
       "residents": 3300,
@@ -471,7 +471,7 @@
   },
   {
     "neighbourhood": "Lievendaal",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 30600,
       "residents": 3157,
@@ -481,7 +481,7 @@
   },
   {
     "neighbourhood": "Limbeek-Noord",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 27700,
       "residents": 2463,
@@ -491,7 +491,7 @@
   },
   {
     "neighbourhood": "Limbeek-Zuid",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 28600,
       "residents": 1405,
@@ -501,7 +501,7 @@
   },
   {
     "neighbourhood": "Looiakkers",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 37100,
       "residents": 571,
@@ -511,7 +511,7 @@
   },
   {
     "neighbourhood": "Luytelaer",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 53400,
       "residents": 942,
@@ -521,7 +521,7 @@
   },
   {
     "neighbourhood": "Meerrijk",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 46500,
       "residents": 670,
@@ -531,7 +531,7 @@
   },
   {
     "neighbourhood": "Mensfort",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 28200,
       "residents": 3096,
@@ -541,7 +541,7 @@
   },
   {
     "neighbourhood": "Muschberg, Geestenberg",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 28600,
       "residents": 3995,
@@ -551,7 +551,7 @@
   },
   {
     "neighbourhood": "Nieuwe Erven",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 27600,
       "residents": 1099,
@@ -561,7 +561,7 @@
   },
   {
     "neighbourhood": "Ooievaarsnest",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 49800,
       "residents": 893,
@@ -571,7 +571,7 @@
   },
   {
     "neighbourhood": "Oude Gracht-Oost",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 46400,
       "residents": 1336,
@@ -581,7 +581,7 @@
   },
   {
     "neighbourhood": "Oude Gracht-West",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 30700,
       "residents": 2860,
@@ -591,7 +591,7 @@
   },
   {
     "neighbourhood": "Oude Spoorbaan",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 35100,
       "residents": 2088,
@@ -601,7 +601,7 @@
   },
   {
     "neighbourhood": "Oude Toren",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 28900,
       "residents": 1628,
@@ -611,7 +611,7 @@
   },
   {
     "neighbourhood": "Philipsdorp",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 38000,
       "residents": 3099,
@@ -621,7 +621,7 @@
   },
   {
     "neighbourhood": "Prinsejagt",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 30100,
       "residents": 4742,
@@ -631,7 +631,7 @@
   },
   {
     "neighbourhood": "Puttense Dreef",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 51000,
       "residents": 1246,
@@ -641,7 +641,7 @@
   },
   {
     "neighbourhood": "Rapelenburg",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 36500,
       "residents": 1133,
@@ -651,7 +651,7 @@
   },
   {
     "neighbourhood": "Rapenland",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 27700,
       "residents": 2371,
@@ -661,7 +661,7 @@
   },
   {
     "neighbourhood": "Rochusbuurt",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 34700,
       "residents": 1778,
@@ -671,7 +671,7 @@
   },
   {
     "neighbourhood": "Roosten",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 60400,
       "residents": 726,
@@ -681,7 +681,7 @@
   },
   {
     "neighbourhood": "Schoot",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 31500,
       "residents": 3247,
@@ -691,7 +691,7 @@
   },
   {
     "neighbourhood": "Schouwbroek",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 32600,
       "residents": 1532,
@@ -701,7 +701,7 @@
   },
   {
     "neighbourhood": "Schrijversbuurt",
-    "district": "Stadsdeel Gestel",
+    "district": "Gestel",
     "2020": {
       "personal_income": 41600,
       "residents": 3584,
@@ -711,7 +711,7 @@
   },
   {
     "neighbourhood": "Schuttersbosch",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 46800,
       "residents": 618,
@@ -721,7 +721,7 @@
   },
   {
     "neighbourhood": "Sintenbuurt",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 34600,
       "residents": 1830,
@@ -731,7 +731,7 @@
   },
   {
     "neighbourhood": "Strijp S",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 39900,
       "residents": 1665,
@@ -741,7 +741,7 @@
   },
   {
     "neighbourhood": "'t Hofke",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 29300,
       "residents": 3683,
@@ -751,7 +751,7 @@
   },
   {
     "neighbourhood": "'t Hool",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 29800,
       "residents": 2256,
@@ -761,7 +761,7 @@
   },
   {
     "neighbourhood": "Tempel",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 29200,
       "residents": 5079,
@@ -771,7 +771,7 @@
   },
   {
     "neighbourhood": "Tivoli",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 23800,
       "residents": 1450,
@@ -781,7 +781,7 @@
   },
   {
     "neighbourhood": "Tongelresche Akkers",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 44500,
       "residents": 1453,
@@ -791,7 +791,7 @@
   },
   {
     "neighbourhood": "Tuindorp",
-    "district": "Stadsdeel Stratum",
+    "district": "Stratum",
     "2020": {
       "personal_income": 40100,
       "residents": 2952,
@@ -801,7 +801,7 @@
   },
   {
     "neighbourhood": "Vaartbroek",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 27900,
       "residents": 5242,
@@ -811,7 +811,7 @@
   },
   {
     "neighbourhood": "Villapark",
-    "district": "Stadsdeel Tongelre",
+    "district": "Tongelre",
     "2020": {
       "personal_income": 57900,
       "residents": 2261,
@@ -821,7 +821,7 @@
   },
   {
     "neighbourhood": "Vlokhoven",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 26100,
       "residents": 3538,
@@ -831,7 +831,7 @@
   },
   {
     "neighbourhood": "Waterrijk",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 53500,
       "residents": 2228,
@@ -841,7 +841,7 @@
   },
   {
     "neighbourhood": "Winkelcentrum",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 39300,
       "residents": 2261,
@@ -851,7 +851,7 @@
   },
   {
     "neighbourhood": "Witte Dame",
-    "district": "Stadsdeel Centrum",
+    "district": "Centrum",
     "2020": {
       "personal_income": 47400,
       "residents": 2162,
@@ -861,7 +861,7 @@
   },
   {
     "neighbourhood": "Woenselse Heide",
-    "district": "Stadsdeel Woensel-Noord",
+    "district": "Woensel-Noord",
     "2020": {
       "personal_income": 29100,
       "residents": 5252,
@@ -871,7 +871,7 @@
   },
   {
     "neighbourhood": "Woenselse Watermolen",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 44900,
       "residents": 1362,
@@ -881,7 +881,7 @@
   },
   {
     "neighbourhood": "Woensel-West",
-    "district": "Stadsdeel Woensel-Zuid",
+    "district": "Woensel-Zuid",
     "2020": {
       "personal_income": 27200,
       "residents": 3878,
@@ -891,7 +891,7 @@
   },
   {
     "neighbourhood": "Zandrijk",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 41200,
       "residents": 2940,
@@ -901,7 +901,7 @@
   },
   {
     "neighbourhood": "Zwaanstraat",
-    "district": "Stadsdeel Strijp",
+    "district": "Strijp",
     "2020": {
       "personal_income": 59100,
       "residents": 902,

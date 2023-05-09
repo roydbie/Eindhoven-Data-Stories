@@ -30,31 +30,31 @@ function BubbleCategorySelect() {
   const districts = [
     {
       color: "rgba(125, 235, 0, 0.75)",
-      name: "Stadsdeel Tongelre",
+      name: "Tongelre",
     },
     {
       color: "rgba(255, 230, 0, 0.75)",
-      name: "Stadsdeel Strijp",
+      name: "Strijp",
     },
     {
       color: "rgba(0, 214, 233, 0.75)",
-      name: "Stadsdeel Stratum",
+      name: "Stratum",
     },
     {
       color: "rgba(255, 33, 66, 0.75)",
-      name: "Stadsdeel Woensel-Noord",
+      name: "Woensel-Noord",
     },
     {
       color: "rgba(88, 135, 255, 0.75)",
-      name: "Stadsdeel Gestel",
+      name: "Gestel",
     },
     {
       color: "rgba(255, 133, 88, 0.75)",
-      name: "Stadsdeel Centrum",
+      name: "Centrum",
     },
     {
       color: "rgba(227, 88, 255, 0.75)",
-      name: "Stadsdeel Woensel-Zuid",
+      name: "Woensel-Zuid",
     },
   ];
   districts.sort((a, b) => a.name.localeCompare(b.name));
