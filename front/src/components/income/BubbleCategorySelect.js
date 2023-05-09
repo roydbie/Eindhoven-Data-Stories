@@ -62,7 +62,7 @@ function BubbleCategorySelect() {
   const [checkedState, setCheckedState] = useState(
     new Array(districts.length).fill(false)
   );
-  const [selectedColors, setSelectedColors] = useState([]);
+  const [selectedDistricts, setSelectedDistricts] = useState("");
 
   const handleOnChange = (position) => {
     const updatedCheckedState = checkedState.map((item, index) =>
@@ -75,7 +75,7 @@ function BubbleCategorySelect() {
         arr.push(districts[index].name);
       }
     });
-    setSelectedColors(arr);
+    setSelectedDistricts(arr);
     console.log(arr);
   };
 
@@ -118,7 +118,7 @@ function BubbleCategorySelect() {
           <BubbleChart
             category={category}
             xAxis={xAxis}
-            selectedColors={selectedColors}
+            districts={selectedDistricts}
           ></BubbleChart>
         </div>
         <div className="col-2 text-light pt-5">
