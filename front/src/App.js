@@ -9,7 +9,9 @@ import Incomevs from "./pages/Incomevs";
 function App() {
   return (
     <BrowserRouter>
-      <Header></Header>
+      <div className="w-100" style={{ height: 50 }}>
+        jo
+      </div>
       <Routes>
         <Route path="/" element={<Index></Index>}></Route>
         <Route

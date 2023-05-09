@@ -5,18 +5,20 @@ function Incomevs() {
   return (
     <>
       <div className="row">
-        <div className="col-3 ps-3">
+        <div className="col-11 mx-auto">
           <Link
             to="/"
-            className="btn btn-sm btn-outline-light mt-2"
-            style={{ float: "right" }}
+            className="btn btn-sm btn-outline-light mb-3"
+            style={{ display: "inline-block" }}
           >
             <i className="bi bi-arrow-left"></i>
           </Link>
-        </div>
-        <div className="col-7">
-          <h1 className="text-light ms-5">Income vs health</h1>
-          <div className="container-fluid"></div>
+          <h1
+            className="text-light ms-5"
+            style={{ display: "inline-block", marginBottom: 0 }}
+          >
+            Income vs health
+          </h1>
         </div>
       </div>
       <div className="row">
