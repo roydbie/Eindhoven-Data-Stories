@@ -66,7 +66,7 @@ function BubbleCategorySelect() {
         <div className="col-10">
           <BubbleChart category={category} xAxis={xAxis}></BubbleChart>
         </div>
-        <div className="col-2">Joooo</div>
+        <div className="col-2">Jooffffoo</div>
       </div>
     </>
   );
