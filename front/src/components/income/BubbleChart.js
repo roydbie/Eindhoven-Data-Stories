@@ -46,7 +46,7 @@ function BubbleChart(props) {
         border: { color: "white" },
         title: {
           display: true,
-          text: "Percentage of people with a long-term illness",
+          text: props.xAxis,
           color: "#ffffff",
         },
         grid: {

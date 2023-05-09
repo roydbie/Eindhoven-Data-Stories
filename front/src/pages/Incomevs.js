@@ -20,7 +20,7 @@ function Incomevs() {
         </div>
       </div>
       <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-11 mx-auto">
           <BubbleCategorySelect></BubbleCategorySelect>
           <br></br>
         </div>
