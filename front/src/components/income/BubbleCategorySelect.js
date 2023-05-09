@@ -27,6 +27,57 @@ function BubbleCategorySelect() {
     },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
+  const districts = [
+    {
+      color: "rgba(125, 235, 0, 0.75)",
+      name: "Stadsdeel Tongelre",
+    },
+    {
+      color: "rgba(255, 230, 0, 0.75)",
+      name: "Stadsdeel Strijp",
+    },
+    {
+      color: "rgba(0, 214, 233, 0.75)",
+      name: "Stadsdeel Stratum",
+    },
+    {
+      color: "rgba(255, 33, 66, 0.75)",
+      name: "Stadsdeel Woensel-Noord",
+    },
+    {
+      color: "rgba(88, 135, 255, 0.75)",
+      name: "Stadsdeel Gestel",
+    },
+    {
+      color: "rgba(255, 133, 88, 0.75)",
+      name: "Stadsdeel Centrum",
+    },
+    {
+      color: "rgba(227, 88, 255, 0.75)",
+      name: "Stadsdeel Woensel-Zuid",
+    },
+  ];
+  districts.sort((a, b) => a.name.localeCompare(b.name));
+
+  const [checkedState, setCheckedState] = useState(
+    new Array(districts.length).fill(false)
+  );
+  const [selectedColors, setSelectedColors] = useState([]);
+
+  const handleOnChange = (position) => {
+    const updatedCheckedState = checkedState.map((item, index) =>
+      index === position ? !item : item
+    );
+    setCheckedState(updatedCheckedState);
+    const arr = [];
+    updatedCheckedState.forEach((item, index) => {
+      if (item === true) {
+        arr.push(districts[index].name);
+      }
+    });
+    setSelectedColors(arr);
+    console.log(arr);
+  };
 
   return (
     <>
@@ -64,9 +115,35 @@ function BubbleCategorySelect() {
       </div>
       <div className="row" style={{ width: "100%", margin: 0 }}>
         <div className="col-10">
-          <BubbleChart category={category} xAxis={xAxis}></BubbleChart>
+          <BubbleChart
+            category={category}
+            xAxis={xAxis}
+            selectedColors={selectedColors}
+          ></BubbleChart>
         </div>
-        <div className="col-2">Hssssallo?</div>
+        <div className="col-2 text-light pt-5">
+          {districts.map(({ name }, index) => {
+            return (
+              <div className="form-check" key={index}>
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  name={name}
+                  value={name}
+                  checked={checkedState[index]}
+                  onChange={() => handleOnChange(index)}
+                  id={`custom-checkbox-${index}`}
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor={`custom-checkbox-${index}`}
+                >
+                  {name}
+                </label>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </>
   );
