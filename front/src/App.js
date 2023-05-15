@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
@@ -10,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="w-100" style={{ height: 50 }}>
-        jo
+        &nbsp;
       </div>
       <Routes>
         <Route path="/" element={<Index></Index>}></Route>

@@ -1,6 +1,7 @@
 import Topics from "../components/Topics";
 import DataLead from "../components/DataLead";
 import { useState } from "react";
+const { Configuration, OpenAIApi } = require("openai");
 
 function Index() {
   const DataLeads = [
@@ -79,27 +80,64 @@ function Index() {
     updateTopics(topics);
   }
 
+  const configuration = new Configuration({
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+  });
+  delete configuration.baseOptions.headers["User-Agent"];
+
+  const openai = new OpenAIApi(configuration);
+  const prompt = "What is the current time in The Netherlands?";
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const result = await openai.createCompletion({
+        model: "text-davinci-003",
+        prompt: prompt,
+        temperature: 0.5,
+        max_tokens: 4000,
+      });
+      console.log("response", result.data.choices[0].text);
+      //setApiResponse(result.data.choices[0].text);
+    } catch (e) {
+      console.log(e);
+      //setApiResponse("Something is going wrong, Please try again.");
+    }
+  };
+
   return (
-    <div className="row">
-      <div className="col-3 ps-3">
-        <Topics topicSelected={TopicChange}></Topics>
+    <>
+      <div className="w-100" style={{ height: 50 }}>
+        &nbsp;
       </div>
-      <div className="col">
-        <h1 className="text-light ms-5">Data Leads</h1>
-        <div className="container-fluid">
-          {filteredDataLeads.length > 0 &&
-            filteredDataLeads.map((element) => (
-              <DataLead
-                key={element.title}
-                title={element.title}
-                icons={element.icons}
-                url={element.url}
-                image={element.image}
-              ></DataLead>
-            ))}
+      <div className="row">
+        <div className="col-3 ps-3">
+          <Topics topicSelected={TopicChange}></Topics>
+        </div>
+        <div className="col">
+          <h1 className="text-light ms-5">Data Leads</h1>
+          <div className="container-fluid">
+            {filteredDataLeads.length > 0 &&
+              filteredDataLeads.map((element) => (
+                <DataLead
+                  key={element.title}
+                  title={element.title}
+                  icons={element.icons}
+                  url={element.url}
+                  image={element.image}
+                ></DataLead>
+              ))}
+          </div>
+          <button
+            className="btn btn-primary"
+            onClick={handleSubmit}
+            style={{ visibility: "hidden" }}
+          >
+            OpenAI
+          </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

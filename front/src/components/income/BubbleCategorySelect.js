@@ -84,7 +84,7 @@ function BubbleCategorySelect() {
       }
     });
     setSelectedDistricts(arr);
-    if (arr == []) {
+    if (arr === []) {
       setSelectedDistricts([
         "Centrum",
         "Gestel",
