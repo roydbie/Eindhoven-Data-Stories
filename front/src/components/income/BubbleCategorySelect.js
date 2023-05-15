@@ -2,7 +2,9 @@ import BubbleChart from "./BubbleChart";
 import { useState } from "react";
 
 function BubbleCategorySelect() {
-  const [category, setCategory] = useState("prolonged_illness_percentage");
+  const [category, setCategory] = useState(
+    "high_level_of_education_percentage"
+  );
   const [xAxis, setxAxis] = useState(
     "Percentage of people with a long-term illness"
   );
@@ -24,6 +26,11 @@ function BubbleCategorySelect() {
       value: "unhappy_percentage",
       text: "Unhappy percentage",
       xText: "Percentage of unhappy people",
+    },
+    {
+      value: "high_level_of_education_percentage",
+      text: "High level of education percentage",
+      xText: "Percentage of people with a high level of education",
     },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
