@@ -2,7 +2,7 @@ import BubbleChart from "./BubbleChart";
 import { useState } from "react";
 
 function BubbleCategorySelect() {
-  const [category, setCategory] = useState("longtermillness");
+  const [category, setCategory] = useState("prolonged_illness_percentage");
   const [xAxis, setxAxis] = useState(
     "Percentage of people with a long-term illness"
   );
