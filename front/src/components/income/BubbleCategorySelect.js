@@ -50,6 +50,11 @@ function BubbleCategorySelect() {
       text: "Personal income",
       xText: "Average personal income per income recipient",
     },
+    {
+      value: "65plus_percentage",
+      text: "Residents above 65 years of age",
+      xText: "Percentage of residents above 65 years of age",
+    },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
   const districts = [

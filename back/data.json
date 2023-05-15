@@ -7,7 +7,8 @@
       "residents": 3721,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 24,
-      "high_level_of_education_percentage": 36.1
+      "high_level_of_education_percentage": 36.1,
+      "65plus_percentage": 19.4
     }
   },
   {
@@ -18,7 +19,8 @@
       "residents": 3989,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 31.7
+      "high_level_of_education_percentage": 31.7,
+      "65plus_percentage": 17.6
     }
   },
   {
@@ -29,7 +31,8 @@
       "residents": 4505,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 34.7
+      "high_level_of_education_percentage": 34.7,
+      "65plus_percentage": 16.2
     }
   },
   {
@@ -40,7 +43,8 @@
       "residents": 2130,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 40.9
+      "high_level_of_education_percentage": 40.9,
+      "65plus_percentage": 13.9
     }
   },
   {
@@ -51,7 +55,8 @@
       "residents": 3402,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 41.4
+      "high_level_of_education_percentage": 41.4,
+      "65plus_percentage": 13.1
     }
   },
   {
@@ -62,7 +67,8 @@
       "residents": 3388,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 24.5
+      "high_level_of_education_percentage": 24.5,
+      "65plus_percentage": 26.5
     }
   },
   {
@@ -73,7 +79,8 @@
       "residents": 2727,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 15,
-      "high_level_of_education_percentage": 58.7
+      "high_level_of_education_percentage": 58.7,
+      "65plus_percentage": 9.1
     }
   },
   {
@@ -84,7 +91,8 @@
       "residents": 3750,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 51.5
+      "high_level_of_education_percentage": 51.5,
+      "65plus_percentage": 9
     }
   },
   {
@@ -95,7 +103,8 @@
       "residents": 2448,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 28.4
+      "high_level_of_education_percentage": 28.4,
+      "65plus_percentage": 13.6
     }
   },
   {
@@ -106,7 +115,8 @@
       "residents": 7246,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 40.6
+      "high_level_of_education_percentage": 40.6,
+      "65plus_percentage": 10
     }
   },
   {
@@ -117,7 +127,8 @@
       "residents": 2069,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 0
+      "high_level_of_education_percentage": 0,
+      "65plus_percentage": 17.7
     }
   },
   {
@@ -128,7 +139,8 @@
       "residents": 1206,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 30.7
+      "high_level_of_education_percentage": 30.7,
+      "65plus_percentage": 12.9
     }
   },
   {
@@ -139,7 +151,8 @@
       "residents": 423,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 62.5
+      "high_level_of_education_percentage": 62.5,
+      "65plus_percentage": 6.1
     }
   },
   {
@@ -150,7 +163,8 @@
       "residents": 3057,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 28
+      "high_level_of_education_percentage": 28,
+      "65plus_percentage": 12.7
     }
   },
   {
@@ -161,7 +175,8 @@
       "residents": 2905,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 19.9
+      "high_level_of_education_percentage": 19.9,
+      "65plus_percentage": 17.5
     }
   },
   {
@@ -172,7 +187,8 @@
       "residents": 3482,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 32.7
+      "high_level_of_education_percentage": 32.7,
+      "65plus_percentage": 13.8
     }
   },
   {
@@ -183,7 +199,8 @@
       "residents": 2391,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 23.9
+      "high_level_of_education_percentage": 23.9,
+      "65plus_percentage": 12
     }
   },
   {
@@ -194,7 +211,8 @@
       "residents": 968,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 24,
-      "high_level_of_education_percentage": 43.1
+      "high_level_of_education_percentage": 43.1,
+      "65plus_percentage": 31.8
     }
   },
   {
@@ -205,7 +223,8 @@
       "residents": 4302,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 17.8
+      "high_level_of_education_percentage": 17.8,
+      "65plus_percentage": 22.8
     }
   },
   {
@@ -216,7 +235,8 @@
       "residents": 4302,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 49.6
+      "high_level_of_education_percentage": 49.6,
+      "65plus_percentage": 19.2
     }
   },
   {
@@ -227,7 +247,8 @@
       "residents": 3166,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 46.6
+      "high_level_of_education_percentage": 46.6,
+      "65plus_percentage": 12.3
     }
   },
   {
@@ -238,7 +259,8 @@
       "residents": 1074,
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
-      "high_level_of_education_percentage": 42.2
+      "high_level_of_education_percentage": 42.2,
+      "65plus_percentage": 20
     }
   },
   {
@@ -249,7 +271,8 @@
       "residents": 301,
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
-      "high_level_of_education_percentage": 50
+      "high_level_of_education_percentage": 50,
+      "65plus_percentage": 30.6
     }
   },
   {
@@ -260,7 +283,8 @@
       "residents": 635,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 59.6
+      "high_level_of_education_percentage": 59.6,
+      "65plus_percentage": 22.5
     }
   },
   {
@@ -271,7 +295,8 @@
       "residents": 3628,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 29,
-      "high_level_of_education_percentage": 41.5
+      "high_level_of_education_percentage": 41.5,
+      "65plus_percentage": 20.1
     }
   },
   {
@@ -282,7 +307,8 @@
       "residents": 2957,
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 28,
-      "high_level_of_education_percentage": 34.8
+      "high_level_of_education_percentage": 34.8,
+      "65plus_percentage": 17
     }
   },
   {
@@ -293,7 +319,8 @@
       "residents": 5437,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 27,
-      "high_level_of_education_percentage": 30.3
+      "high_level_of_education_percentage": 30.3,
+      "65plus_percentage": 20.7
     }
   },
   {
@@ -304,7 +331,8 @@
       "residents": 1361,
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
-      "high_level_of_education_percentage": 53.7
+      "high_level_of_education_percentage": 53.7,
+      "65plus_percentage": 40
     }
   },
   {
@@ -315,7 +343,8 @@
       "residents": 3374,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 43.1
+      "high_level_of_education_percentage": 43.1,
+      "65plus_percentage": 11.6
     }
   },
   {
@@ -326,7 +355,8 @@
       "residents": 1818,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 52.4
+      "high_level_of_education_percentage": 52.4,
+      "65plus_percentage": 20.6
     }
   },
   {
@@ -337,7 +367,8 @@
       "residents": 1681,
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 42
+      "high_level_of_education_percentage": 42,
+      "65plus_percentage": 20.9
     }
   },
   {
@@ -348,7 +379,8 @@
       "residents": 5845,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 48.8
+      "high_level_of_education_percentage": 48.8,
+      "65plus_percentage": 8.3
     }
   },
   {
@@ -359,7 +391,8 @@
       "residents": 1183,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 32.9
+      "high_level_of_education_percentage": 32.9,
+      "65plus_percentage": 35.1
     }
   },
   {
@@ -370,7 +403,8 @@
       "residents": 3688,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 23,
-      "high_level_of_education_percentage": 39.7
+      "high_level_of_education_percentage": 39.7,
+      "65plus_percentage": 21.1
     }
   },
   {
@@ -381,7 +415,8 @@
       "residents": 2678,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 50.5
+      "high_level_of_education_percentage": 50.5,
+      "65plus_percentage": 20.8
     }
   },
   {
@@ -392,7 +427,8 @@
       "residents": 3870,
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 30.8
+      "high_level_of_education_percentage": 30.8,
+      "65plus_percentage": 9.4
     }
   },
   {
@@ -403,7 +439,8 @@
       "residents": 3932,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 17,
-      "high_level_of_education_percentage": 34
+      "high_level_of_education_percentage": 34,
+      "65plus_percentage": 16
     }
   },
   {
@@ -414,7 +451,8 @@
       "residents": 2345,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 60.6
+      "high_level_of_education_percentage": 60.6,
+      "65plus_percentage": 10
     }
   },
   {
@@ -425,7 +463,8 @@
       "residents": 3527,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 36,
-      "high_level_of_education_percentage": 23.5
+      "high_level_of_education_percentage": 23.5,
+      "65plus_percentage": 22.6
     }
   },
   {
@@ -436,7 +475,8 @@
       "residents": 1298,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 43.9
+      "high_level_of_education_percentage": 43.9,
+      "65plus_percentage": 13.8
     }
   },
   {
@@ -447,7 +487,8 @@
       "residents": 455,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 75
+      "high_level_of_education_percentage": 75,
+      "65plus_percentage": 36
     }
   },
   {
@@ -458,7 +499,8 @@
       "residents": 3547,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 38
+      "high_level_of_education_percentage": 38,
+      "65plus_percentage": 25
     }
   },
   {
@@ -469,7 +511,8 @@
       "residents": 1829,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 34.4
+      "high_level_of_education_percentage": 34.4,
+      "65plus_percentage": 9.7
     }
   },
   {
@@ -480,7 +523,8 @@
       "residents": 516,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 66.7
+      "high_level_of_education_percentage": 66.7,
+      "65plus_percentage": 32.4
     }
   },
   {
@@ -491,7 +535,8 @@
       "residents": 4182,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 20,
-      "high_level_of_education_percentage": 35.5
+      "high_level_of_education_percentage": 35.5,
+      "65plus_percentage": 28.7
     }
   },
   {
@@ -502,7 +547,8 @@
       "residents": 3067,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 21,
-      "high_level_of_education_percentage": 41.8
+      "high_level_of_education_percentage": 41.8,
+      "65plus_percentage": 9.7
     }
   },
   {
@@ -513,7 +559,8 @@
       "residents": 3300,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 21,
-      "high_level_of_education_percentage": 32.6
+      "high_level_of_education_percentage": 32.6,
+      "65plus_percentage": 12.4
     }
   },
   {
@@ -524,7 +571,8 @@
       "residents": 3157,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 19.4
+      "high_level_of_education_percentage": 19.4,
+      "65plus_percentage": 14.4
     }
   },
   {
@@ -535,7 +583,8 @@
       "residents": 2463,
       "unhappy_percentage": 11,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 43.6
+      "high_level_of_education_percentage": 43.6,
+      "65plus_percentage": 6.9
     }
   },
   {
@@ -546,7 +595,8 @@
       "residents": 1405,
       "unhappy_percentage": 11,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 34.2
+      "high_level_of_education_percentage": 34.2,
+      "65plus_percentage": 12.7
     }
   },
   {
@@ -557,7 +607,8 @@
       "residents": 571,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 61
+      "high_level_of_education_percentage": 61,
+      "65plus_percentage": 7.9
     }
   },
   {
@@ -568,7 +619,8 @@
       "residents": 942,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 69.8
+      "high_level_of_education_percentage": 69.8,
+      "65plus_percentage": 39.1
     }
   },
   {
@@ -579,7 +631,8 @@
       "residents": 670,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 56.9
+      "high_level_of_education_percentage": 56.9,
+      "65plus_percentage": 17.9
     }
   },
   {
@@ -590,7 +643,8 @@
       "residents": 3096,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 24,
-      "high_level_of_education_percentage": 25.3
+      "high_level_of_education_percentage": 25.3,
+      "65plus_percentage": 16.9
     }
   },
   {
@@ -601,7 +655,8 @@
       "residents": 3995,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 28.7
+      "high_level_of_education_percentage": 28.7,
+      "65plus_percentage": 19.1
     }
   },
   {
@@ -612,7 +667,8 @@
       "residents": 1099,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 30.8
+      "high_level_of_education_percentage": 30.8,
+      "65plus_percentage": 14.6
     }
   },
   {
@@ -623,7 +679,8 @@
       "residents": 893,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 23,
-      "high_level_of_education_percentage": 64.6
+      "high_level_of_education_percentage": 64.6,
+      "65plus_percentage": 29.9
     }
   },
   {
@@ -634,7 +691,8 @@
       "residents": 1336,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 60.6
+      "high_level_of_education_percentage": 60.6,
+      "65plus_percentage": 24.1
     }
   },
   {
@@ -645,7 +703,8 @@
       "residents": 2860,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 38
+      "high_level_of_education_percentage": 38,
+      "65plus_percentage": 21.4
     }
   },
   {
@@ -656,7 +715,8 @@
       "residents": 2088,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 49.7
+      "high_level_of_education_percentage": 49.7,
+      "65plus_percentage": 9.9
     }
   },
   {
@@ -667,7 +727,8 @@
       "residents": 1628,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 33.6
+      "high_level_of_education_percentage": 33.6,
+      "65plus_percentage": 35.4
     }
   },
   {
@@ -678,7 +739,8 @@
       "residents": 3099,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 48.3
+      "high_level_of_education_percentage": 48.3,
+      "65plus_percentage": 10.7
     }
   },
   {
@@ -689,7 +751,8 @@
       "residents": 4742,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 24,
-      "high_level_of_education_percentage": 28.6
+      "high_level_of_education_percentage": 28.6,
+      "65plus_percentage": 23.7
     }
   },
   {
@@ -700,7 +763,8 @@
       "residents": 1246,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 62.2
+      "high_level_of_education_percentage": 62.2,
+      "65plus_percentage": 15.3
     }
   },
   {
@@ -711,7 +775,8 @@
       "residents": 1133,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 56.3
+      "high_level_of_education_percentage": 56.3,
+      "65plus_percentage": 10.9
     }
   },
   {
@@ -722,7 +787,8 @@
       "residents": 2371,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 24,
-      "high_level_of_education_percentage": 31.1
+      "high_level_of_education_percentage": 31.1,
+      "65plus_percentage": 10.8
     }
   },
   {
@@ -733,7 +799,8 @@
       "residents": 1778,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
-      "high_level_of_education_percentage": 59.9
+      "high_level_of_education_percentage": 59.9,
+      "65plus_percentage": 7.6
     }
   },
   {
@@ -744,7 +811,8 @@
       "residents": 726,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 0
+      "high_level_of_education_percentage": 0,
+      "65plus_percentage": 22.2
     }
   },
   {
@@ -755,7 +823,8 @@
       "residents": 3247,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 17,
-      "high_level_of_education_percentage": 50.5
+      "high_level_of_education_percentage": 50.5,
+      "65plus_percentage": 10.5
     }
   },
   {
@@ -766,7 +835,8 @@
       "residents": 1532,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 38.7
+      "high_level_of_education_percentage": 38.7,
+      "65plus_percentage": 13.6
     }
   },
   {
@@ -777,7 +847,8 @@
       "residents": 3584,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
-      "high_level_of_education_percentage": 53.7
+      "high_level_of_education_percentage": 53.7,
+      "65plus_percentage": 16.5
     }
   },
   {
@@ -788,7 +859,8 @@
       "residents": 618,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 59.5
+      "high_level_of_education_percentage": 59.5,
+      "65plus_percentage": 34.3
     }
   },
   {
@@ -799,7 +871,8 @@
       "residents": 1830,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 40.9
+      "high_level_of_education_percentage": 40.9,
+      "65plus_percentage": 14.6
     }
   },
   {
@@ -810,7 +883,8 @@
       "residents": 1665,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 66.1
+      "high_level_of_education_percentage": 66.1,
+      "65plus_percentage": 2
     }
   },
   {
@@ -821,7 +895,8 @@
       "residents": 3683,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 36.4
+      "high_level_of_education_percentage": 36.4,
+      "65plus_percentage": 19.7
     }
   },
   {
@@ -832,7 +907,8 @@
       "residents": 2256,
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 33.5
+      "high_level_of_education_percentage": 33.5,
+      "65plus_percentage": 17.2
     }
   },
   {
@@ -843,7 +919,8 @@
       "residents": 5079,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 26,
-      "high_level_of_education_percentage": 24
+      "high_level_of_education_percentage": 24,
+      "65plus_percentage": 25.3
     }
   },
   {
@@ -854,7 +931,8 @@
       "residents": 1450,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
-      "high_level_of_education_percentage": 14.8
+      "high_level_of_education_percentage": 14.8,
+      "65plus_percentage": 15.7
     }
   },
   {
@@ -865,7 +943,8 @@
       "residents": 1453,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
-      "high_level_of_education_percentage": 50
+      "high_level_of_education_percentage": 50,
+      "65plus_percentage": 8.7
     }
   },
   {
@@ -876,7 +955,8 @@
       "residents": 2952,
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 63.4
+      "high_level_of_education_percentage": 63.4,
+      "65plus_percentage": 23
     }
   },
   {
@@ -887,7 +967,8 @@
       "residents": 5242,
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 26,
-      "high_level_of_education_percentage": 24.9
+      "high_level_of_education_percentage": 24.9,
+      "65plus_percentage": 18.5
     }
   },
   {
@@ -898,7 +979,8 @@
       "residents": 2261,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 61.2
+      "high_level_of_education_percentage": 61.2,
+      "65plus_percentage": 16
     }
   },
   {
@@ -909,7 +991,8 @@
       "residents": 3538,
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 29,
-      "high_level_of_education_percentage": 27
+      "high_level_of_education_percentage": 27,
+      "65plus_percentage": 22.7
     }
   },
   {
@@ -920,7 +1003,8 @@
       "residents": 2228,
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 63.1
+      "high_level_of_education_percentage": 63.1,
+      "65plus_percentage": 2.5
     }
   },
   {
@@ -931,7 +1015,8 @@
       "residents": 2261,
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 43.9
+      "high_level_of_education_percentage": 43.9,
+      "65plus_percentage": 21.9
     }
   },
   {
@@ -942,7 +1027,8 @@
       "residents": 2162,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 15,
-      "high_level_of_education_percentage": 78.5
+      "high_level_of_education_percentage": 78.5,
+      "65plus_percentage": 9.4
     }
   },
   {
@@ -953,7 +1039,8 @@
       "residents": 5252,
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 32,
-      "high_level_of_education_percentage": 28.1
+      "high_level_of_education_percentage": 28.1,
+      "65plus_percentage": 20.4
     }
   },
   {
@@ -964,7 +1051,8 @@
       "residents": 1362,
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 13,
-      "high_level_of_education_percentage": 80.1
+      "high_level_of_education_percentage": 80.1,
+      "65plus_percentage": 13.2
     }
   },
   {
@@ -975,7 +1063,8 @@
       "residents": 3878,
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 19,
-      "high_level_of_education_percentage": 41.3
+      "high_level_of_education_percentage": 41.3,
+      "65plus_percentage": 7.6
     }
   },
   {
@@ -986,7 +1075,8 @@
       "residents": 2940,
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
-      "high_level_of_education_percentage": 42.1
+      "high_level_of_education_percentage": 42.1,
+      "65plus_percentage": 15.1
     }
   },
   {
@@ -997,7 +1087,8 @@
       "residents": 902,
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 16,
-      "high_level_of_education_percentage": 81.4
+      "high_level_of_education_percentage": 81.4,
+      "65plus_percentage": 3.7
     }
   }
 ]
