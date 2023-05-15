@@ -6,7 +6,7 @@ const { Configuration, OpenAIApi } = require("openai");
 function Index() {
   const DataLeads = [
     {
-      title: "Income related to health",
+      title: "Income & health",
       topics: ["management"],
       icons: [
         "bi bi-lungs",

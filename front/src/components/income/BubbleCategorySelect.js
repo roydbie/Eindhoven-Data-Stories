@@ -178,7 +178,7 @@ function BubbleCategorySelect() {
         </div>
         <div className="col-2 text-light pt-3">
           <h5 className="text-light ps-2">Select districts:</h5>
-          {districts.map(({ name }, index) => {
+          {districts.map(({ name, color }, index) => {
             return (
               <div className="form-check" key={index}>
                 <input
@@ -194,6 +194,11 @@ function BubbleCategorySelect() {
                   className="form-check-label"
                   htmlFor={`custom-checkbox-${index}`}
                 >
+                  <span
+                    style={{ backgroundColor: color, color: color, opacity: 1 }}
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>{" "}
                   {name}
                 </label>
               </div>

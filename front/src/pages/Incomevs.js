@@ -17,7 +17,7 @@ function Incomevs() {
             className="text-light ms-5"
             style={{ display: "inline-block", marginBottom: 0 }}
           >
-            Income vs health
+            Income & health
           </h1>
         </div>
       </div>
