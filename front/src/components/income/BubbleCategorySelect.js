@@ -2,20 +2,33 @@ import BubbleChart from "./BubbleChart";
 import { useState } from "react";
 
 function BubbleCategorySelect() {
-  const [category, setCategory] = useState(
+  const [xCategory, setxCategory] = useState(
     "high_level_of_education_percentage"
   );
+  const [yCategory, setyCategory] = useState("personal_income");
   const [xAxis, setxAxis] = useState(
     "Percentage of people with a long-term illness"
   );
+  const [yAxis, setyAxis] = useState(
+    "Average personal income per income recipient"
+  );
 
-  function selectChange(event) {
-    setCategory(event.target.value);
+  function selectChangeX(event) {
+    setxCategory(event.target.value);
     const res = categories.filter((obj) =>
       Object.values(obj).some((val) => val.includes(event.target.value))
     );
     setxAxis(res[0].xText);
   }
+
+  function selectChangeY(event) {
+    setyCategory(event.target.value);
+    const res = categories.filter((obj) =>
+      Object.values(obj).some((val) => val.includes(event.target.value))
+    );
+    setyAxis(res[0].xText);
+  }
+
   const categories = [
     {
       value: "prolonged_illness_percentage",
@@ -31,6 +44,11 @@ function BubbleCategorySelect() {
       value: "high_level_of_education_percentage",
       text: "High level of education percentage",
       xText: "Percentage of people with a high level of education",
+    },
+    {
+      value: "personal_income",
+      text: "Personal income",
+      xText: "Average personal income per income recipient",
     },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
@@ -112,8 +130,8 @@ function BubbleCategorySelect() {
           <select
             className="form-select mt-2"
             style={{ fontSize: "0.9rem" }}
-            onChange={selectChange}
-            defaultValue={category}
+            onChange={selectChangeX}
+            defaultValue={xCategory}
           >
             {categories.map((item, index) => {
               return (
@@ -129,11 +147,16 @@ function BubbleCategorySelect() {
           <select
             className="form-select mt-2"
             style={{ fontSize: "0.9rem" }}
-            disabled
+            onChange={selectChangeY}
+            defaultValue={yCategory}
           >
-            <option value="test" key="1">
-              Default value
-            </option>
+            {categories.map((item, index) => {
+              return (
+                <option value={item.value} key={index}>
+                  {item.text}
+                </option>
+              );
+            })}
           </select>
         </div>
         <div className="col-3">jooo</div>
@@ -141,8 +164,10 @@ function BubbleCategorySelect() {
       <div className="row" style={{ width: "100%", margin: 0 }}>
         <div className="col-10">
           <BubbleChart
-            category={category}
+            xCategory={xCategory}
+            yCategory={yCategory}
             xAxis={xAxis}
+            yAxis={yAxis}
             districts={selectedDistricts}
           ></BubbleChart>
         </div>

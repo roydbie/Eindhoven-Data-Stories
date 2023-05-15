@@ -30,7 +30,7 @@ function BubbleChart(props) {
         border: { color: "white" },
         title: {
           display: true,
-          text: "Average personal income per income recipient",
+          text: props.yAxis,
           color: "#ffffff",
         },
         grid: {
@@ -65,8 +65,10 @@ function BubbleChart(props) {
   const { data, loading, error } = useFetch(
     "http://127.0.0.1:7777" +
       location.pathname +
-      "?category=" +
-      props.category +
+      "?category1=" +
+      props.xCategory +
+      "&category2=" +
+      props.yCategory +
       "&districts=" +
       props.districts
   );
