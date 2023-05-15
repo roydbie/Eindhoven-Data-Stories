@@ -30,31 +30,31 @@ function BubbleCategorySelect() {
   const districts = [
     {
       color: "rgba(125, 235, 0, 0.75)",
-      name: "Stadsdeel Tongelre",
+      name: "Tongelre",
     },
     {
       color: "rgba(255, 230, 0, 0.75)",
-      name: "Stadsdeel Strijp",
+      name: "Strijp",
     },
     {
       color: "rgba(0, 214, 233, 0.75)",
-      name: "Stadsdeel Stratum",
+      name: "Stratum",
     },
     {
       color: "rgba(255, 33, 66, 0.75)",
-      name: "Stadsdeel Woensel-Noord",
+      name: "Woensel-Noord",
     },
     {
       color: "rgba(88, 135, 255, 0.75)",
-      name: "Stadsdeel Gestel",
+      name: "Gestel",
     },
     {
       color: "rgba(255, 133, 88, 0.75)",
-      name: "Stadsdeel Centrum",
+      name: "Centrum",
     },
     {
       color: "rgba(227, 88, 255, 0.75)",
-      name: "Stadsdeel Woensel-Zuid",
+      name: "Woensel-Zuid",
     },
   ];
   districts.sort((a, b) => a.name.localeCompare(b.name));
@@ -62,7 +62,15 @@ function BubbleCategorySelect() {
   const [checkedState, setCheckedState] = useState(
     new Array(districts.length).fill(false)
   );
-  const [selectedColors, setSelectedColors] = useState([]);
+  const [selectedDistricts, setSelectedDistricts] = useState([
+    "Centrum",
+    "Gestel",
+    "Stratum",
+    "Strijp",
+    "Tongelre",
+    "Woensel-Noord",
+    "Woensel-Zuid",
+  ]);
 
   const handleOnChange = (position) => {
     const updatedCheckedState = checkedState.map((item, index) =>
@@ -75,8 +83,18 @@ function BubbleCategorySelect() {
         arr.push(districts[index].name);
       }
     });
-    setSelectedColors(arr);
-    console.log(arr);
+    setSelectedDistricts(arr);
+    if (arr === []) {
+      setSelectedDistricts([
+        "Centrum",
+        "Gestel",
+        "Stratum",
+        "Strijp",
+        "Tongelre",
+        "Woensel-Noord",
+        "Woensel-Zuid",
+      ]);
+    }
   };
 
   return (
@@ -118,10 +136,11 @@ function BubbleCategorySelect() {
           <BubbleChart
             category={category}
             xAxis={xAxis}
-            selectedColors={selectedColors}
+            districts={selectedDistricts}
           ></BubbleChart>
         </div>
-        <div className="col-2 text-light pt-5">
+        <div className="col-2 text-light pt-3">
+          <h5 className="text-light ps-2">Select districts:</h5>
           {districts.map(({ name }, index) => {
             return (
               <div className="form-check" key={index}>

@@ -63,7 +63,12 @@ function BubbleChart(props) {
   const location = useLocation();
 
   const { data, loading, error } = useFetch(
-    "http://127.0.0.1:7777" + location.pathname + "/" + props.category
+    "http://127.0.0.1:7777" +
+      location.pathname +
+      "?category=" +
+      props.category +
+      "&districts=" +
+      props.districts
   );
 
   if (loading)

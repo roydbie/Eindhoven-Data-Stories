@@ -12,7 +12,6 @@ app = Flask(__name__)
 CORS(app)
 
 
-
 @app.route('/publicreports/scatter/<category>', methods=['GET'])
 def publicreportsScatter(category):
     main_data_array = []
@@ -167,51 +166,60 @@ def publicreportsBar(category, fewResidentsExcluded):
     return json.dumps({"data": barChartData})
 
 
-@app.route('/incomevs/<category>', methods=['GET'])
-def income(category):
+@app.route('/incomevs', methods=['GET'])
+def income():
+
+    url_params = request.args
 
     df = pd.read_json('data.json').to_json(orient='records')
 
     dfData = json.loads(df)
+
+    try:
+        districtsArray = url_params['districts']
+    except KeyError:
+        districtsArray = ["Centrum",
+                          "Gestel",
+                          "Stratum",
+                          "Strijp",
+                          "Tongelre",
+                          "Woensel-Noord",
+                          "Woensel-Zuid"]
 
     bubbleChartData = {
         "datasets": [],
     }
 
     for item in dfData:
-        if item.get("district") == "Stadsdeel Tongelre":
-            borderColor = "rgba(125, 235, 0, 1)"
-            backgroundColor = "rgba(125, 235, 0, 0.75)"
-        elif item.get("district") == "Stadsdeel Strijp":
-            borderColor = "rgba(255, 230, 0, 1)"
-            backgroundColor = "rgba(255, 230, 0, 0.75)"
-        elif item.get("district") == "Stadsdeel Stratum":
-            borderColor = "rgba(0, 214, 233, 1)"
-            backgroundColor = "rgba(0, 214, 233, 0.75)"
-        elif item.get("district") == "Stadsdeel Woensel-Noord":
-            borderColor = "rgba(255, 33, 66, 1)"
-            backgroundColor = "rgba(255, 33, 66, 0.75)"
-        elif item.get("district") == "Stadsdeel Gestel":
-            borderColor = "rgba(88, 135, 255, 1)"
-            backgroundColor = "rgba(88, 135, 255, 0.75)"
-        elif item.get("district") == "Stadsdeel Centrum":
-            borderColor = "rgba(255, 133, 88, 1)"
-            backgroundColor = "rgba(255, 133, 88, 0.75)"
-        elif item.get("district") == "Stadsdeel Woensel-Zuid":
-            borderColor = "rgba(227, 88, 255, 1)"
-            backgroundColor = "rgba(227, 88, 255, 0.75)"
+        if item.get("district") in districtsArray or districtsArray == "":
+            if item.get("district") == "Tongelre":
+                backgroundColor = "rgba(125, 235, 0, 0.75)"
+            elif item.get("district") == "Strijp":
+                backgroundColor = "rgba(255, 230, 0, 0.75)"
+            elif item.get("district") == "Stratum":
+                backgroundColor = "rgba(0, 214, 233, 0.75)"
+            elif item.get("district") == "Woensel-Noord":
+                backgroundColor = "rgba(255, 33, 66, 0.75)"
+            elif item.get("district") == "Gestel":
+                backgroundColor = "rgba(88, 135, 255, 0.75)"
+            elif item.get("district") == "Centrum":
+                backgroundColor = "rgba(255, 133, 88, 0.75)"
+            elif item.get("district") == "Woensel-Zuid":
+                backgroundColor = "rgba(227, 88, 255, 0.75)"
 
-        if category == "longtermillness":
-            y = item.get("2020").get("prolonged_illness_percentage")
-        else:
-            y = item.get("2020").get("unhappy_percentage")
+            if url_params['category'] == "longtermillness":
+                y = item.get("2020").get("prolonged_illness_percentage")
+            elif url_params['category'] == "unhappy":
+                y = item.get("2020").get("unhappy_percentage")
 
-        bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": y, "x": item.get("2020").get(
-            "personal_income"), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
+            bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": y, "x": item.get("2020").get(
+                "personal_income"), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
 
     return json.dumps({"data": bubbleChartData})
+    # return json.dumps(districtsArray)
 
-@app.route('/test', methods=['GET'])
+
+@ app.route('/test', methods=['GET'])
 def test():
     df = pd.read_json('data.json').to_json(orient='records')
 

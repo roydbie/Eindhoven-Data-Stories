@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
@@ -9,7 +8,9 @@ import Incomevs from "./pages/Incomevs";
 function App() {
   return (
     <BrowserRouter>
-      <Header></Header>
+      <div className="w-100" style={{ height: 50 }}>
+        &nbsp;
+      </div>
       <Routes>
         <Route path="/" element={<Index></Index>}></Route>
         <Route
