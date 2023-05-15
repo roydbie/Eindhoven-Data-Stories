@@ -16,12 +16,12 @@ function BubbleCategorySelect() {
   }
   const categories = [
     {
-      value: "longtermillness",
+      value: "prolonged_illness_percentage",
       text: "Long term illness percentage",
       xText: "Percentage of people with a long-term illness",
     },
     {
-      value: "unhappy",
+      value: "unhappy_percentage",
       text: "Unhappy percentage",
       xText: "Percentage of unhappy people",
     },

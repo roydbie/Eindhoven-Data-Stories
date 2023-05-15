@@ -207,10 +207,7 @@ def income():
             elif item.get("district") == "Woensel-Zuid":
                 backgroundColor = "rgba(227, 88, 255, 0.75)"
 
-            if url_params['category'] == "longtermillness":
-                y = item.get("2020").get("prolonged_illness_percentage")
-            elif url_params['category'] == "unhappy":
-                y = item.get("2020").get("unhappy_percentage")
+            y = item.get("2020").get(url_params['category'])
 
             bubbleChartData.get("datasets").append({"label": item.get("neighbourhood"), "data": [{"y": y, "x": item.get("2020").get(
                 "personal_income"), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
