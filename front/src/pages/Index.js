@@ -86,7 +86,7 @@ function Index() {
   delete configuration.baseOptions.headers["User-Agent"];
 
   const openai = new OpenAIApi(configuration);
-  const prompt = "What is the current time in The Netherlands?";
+  const prompt = "The neighbourhood ";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -97,7 +97,7 @@ function Index() {
         temperature: 0.5,
         max_tokens: 4000,
       });
-      console.log("response", result.data.choices[0].text);
+      console.log(result.data.choices[0].text);
       //setApiResponse(result.data.choices[0].text);
     } catch (e) {
       console.log(e);
@@ -128,11 +128,7 @@ function Index() {
                 ></DataLead>
               ))}
           </div>
-          <button
-            className="btn btn-primary"
-            onClick={handleSubmit}
-            style={{ visibility: "hidden" }}
-          >
+          <button className="btn btn-primary" onClick={handleSubmit}>
             OpenAI
           </button>
         </div>
