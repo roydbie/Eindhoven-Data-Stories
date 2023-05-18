@@ -7,7 +7,7 @@ function BubbleCategorySelect() {
   );
   const [yCategory, setyCategory] = useState("personal_income");
   const [xAxis, setxAxis] = useState(
-    "Percentage of people with a long-term illness"
+    "Percentage of people with a high level of education"
   );
   const [yAxis, setyAxis] = useState(
     "Average personal income per income recipient"
@@ -54,6 +54,16 @@ function BubbleCategorySelect() {
       value: "65plus_percentage",
       text: "Residents above 65 years of age",
       xText: "Percentage of residents above 65 years of age",
+    },
+    {
+      value: "worries_about_money_percentage",
+      text: "Residents worried about money percentage",
+      xText: "Percentage of residents who are worried about money",
+    },
+    {
+      value: "has_debts_percentage",
+      text: "Residents with debt percentage",
+      xText: "Percentage of residents with debt",
     },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));

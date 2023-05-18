@@ -8,7 +8,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 24,
       "high_level_of_education_percentage": 36.1,
-      "65plus_percentage": 19.4
+      "65plus_percentage": 19.4,
+      "worries_about_money_percentage": 9,
+      "has_debts_percentage": 14
     }
   },
   {
@@ -20,7 +22,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 31.7,
-      "65plus_percentage": 17.6
+      "65plus_percentage": 17.6,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 10
     }
   },
   {
@@ -32,7 +36,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 34.7,
-      "65plus_percentage": 16.2
+      "65plus_percentage": 16.2,
+      "worries_about_money_percentage": 9,
+      "has_debts_percentage": 12
     }
   },
   {
@@ -44,7 +50,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 40.9,
-      "65plus_percentage": 13.9
+      "65plus_percentage": 13.9,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 25
     }
   },
   {
@@ -56,7 +64,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 41.4,
-      "65plus_percentage": 13.1
+      "65plus_percentage": 13.1,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 24
     }
   },
   {
@@ -68,7 +78,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 24.5,
-      "65plus_percentage": 26.5
+      "65plus_percentage": 26.5,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 24
     }
   },
   {
@@ -80,7 +92,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 15,
       "high_level_of_education_percentage": 58.7,
-      "65plus_percentage": 9.1
+      "65plus_percentage": 9.1,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 20
     }
   },
   {
@@ -92,7 +106,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 51.5,
-      "65plus_percentage": 9
+      "65plus_percentage": 9,
+      "worries_about_money_percentage": 16,
+      "has_debts_percentage": 33
     }
   },
   {
@@ -104,7 +120,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 28.4,
-      "65plus_percentage": 13.6
+      "65plus_percentage": 13.6,
+      "worries_about_money_percentage": 13,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -116,7 +134,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 40.6,
-      "65plus_percentage": 10
+      "65plus_percentage": 10,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 8
     }
   },
   {
@@ -128,7 +148,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 0,
-      "65plus_percentage": 17.7
+      "65plus_percentage": 17.7,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 8
     }
   },
   {
@@ -140,7 +162,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 30.7,
-      "65plus_percentage": 12.9
+      "65plus_percentage": 12.9,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 21
     }
   },
   {
@@ -152,7 +176,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 62.5,
-      "65plus_percentage": 6.1
+      "65plus_percentage": 6.1,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -164,7 +190,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 28,
-      "65plus_percentage": 12.7
+      "65plus_percentage": 12.7,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 22
     }
   },
   {
@@ -176,7 +204,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 19.9,
-      "65plus_percentage": 17.5
+      "65plus_percentage": 17.5,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -188,7 +218,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 32.7,
-      "65plus_percentage": 13.8
+      "65plus_percentage": 13.8,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -200,7 +232,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 23.9,
-      "65plus_percentage": 12
+      "65plus_percentage": 12,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 22
     }
   },
   {
@@ -212,7 +246,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 24,
       "high_level_of_education_percentage": 43.1,
-      "65plus_percentage": 31.8
+      "65plus_percentage": 31.8,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -224,7 +260,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 17.8,
-      "65plus_percentage": 22.8
+      "65plus_percentage": 22.8,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -236,7 +274,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 49.6,
-      "65plus_percentage": 19.2
+      "65plus_percentage": 19.2,
+      "worries_about_money_percentage": 4,
+      "has_debts_percentage": 11
     }
   },
   {
@@ -248,7 +288,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 46.6,
-      "65plus_percentage": 12.3
+      "65plus_percentage": 12.3,
+      "worries_about_money_percentage": 7,
+      "has_debts_percentage": 18
     }
   },
   {
@@ -260,7 +302,9 @@
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
       "high_level_of_education_percentage": 42.2,
-      "65plus_percentage": 20
+      "65plus_percentage": 20,
+      "worries_about_money_percentage": 4,
+      "has_debts_percentage": 10
     }
   },
   {
@@ -272,7 +316,9 @@
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
       "high_level_of_education_percentage": 50,
-      "65plus_percentage": 30.6
+      "65plus_percentage": 30.6,
+      "worries_about_money_percentage": 4,
+      "has_debts_percentage": 10
     }
   },
   {
@@ -284,7 +330,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 59.6,
-      "65plus_percentage": 22.5
+      "65plus_percentage": 22.5,
+      "worries_about_money_percentage": 7,
+      "has_debts_percentage": 18
     }
   },
   {
@@ -296,7 +344,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 29,
       "high_level_of_education_percentage": 41.5,
-      "65plus_percentage": 20.1
+      "65plus_percentage": 20.1,
+      "worries_about_money_percentage": 9,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -308,7 +358,9 @@
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 28,
       "high_level_of_education_percentage": 34.8,
-      "65plus_percentage": 17
+      "65plus_percentage": 17,
+      "worries_about_money_percentage": 19,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -320,7 +372,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 27,
       "high_level_of_education_percentage": 30.3,
-      "65plus_percentage": 20.7
+      "65plus_percentage": 20.7,
+      "worries_about_money_percentage": 16,
+      "has_debts_percentage": 17
     }
   },
   {
@@ -332,7 +386,9 @@
       "unhappy_percentage": 1,
       "prolonged_illness_percentage": 15,
       "high_level_of_education_percentage": 53.7,
-      "65plus_percentage": 40
+      "65plus_percentage": 40,
+      "worries_about_money_percentage": 4,
+      "has_debts_percentage": 10
     }
   },
   {
@@ -344,7 +400,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 43.1,
-      "65plus_percentage": 11.6
+      "65plus_percentage": 11.6,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 21
     }
   },
   {
@@ -356,7 +414,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 52.4,
-      "65plus_percentage": 20.6
+      "65plus_percentage": 20.6,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 13
     }
   },
   {
@@ -368,7 +428,9 @@
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 42,
-      "65plus_percentage": 20.9
+      "65plus_percentage": 20.9,
+      "worries_about_money_percentage": 13,
+      "has_debts_percentage": 28
     }
   },
   {
@@ -380,7 +442,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 48.8,
-      "65plus_percentage": 8.3
+      "65plus_percentage": 8.3,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -392,7 +456,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 32.9,
-      "65plus_percentage": 35.1
+      "65plus_percentage": 35.1,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 20
     }
   },
   {
@@ -404,7 +470,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 23,
       "high_level_of_education_percentage": 39.7,
-      "65plus_percentage": 21.1
+      "65plus_percentage": 21.1,
+      "worries_about_money_percentage": 11,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -416,7 +484,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 50.5,
-      "65plus_percentage": 20.8
+      "65plus_percentage": 20.8,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 12
     }
   },
   {
@@ -428,7 +498,9 @@
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 30.8,
-      "65plus_percentage": 9.4
+      "65plus_percentage": 9.4,
+      "worries_about_money_percentage": 13,
+      "has_debts_percentage": 28
     }
   },
   {
@@ -440,7 +512,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 17,
       "high_level_of_education_percentage": 34,
-      "65plus_percentage": 16
+      "65plus_percentage": 16,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -452,7 +526,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 60.6,
-      "65plus_percentage": 10
+      "65plus_percentage": 10,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -464,7 +540,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 36,
       "high_level_of_education_percentage": 23.5,
-      "65plus_percentage": 22.6
+      "65plus_percentage": 22.6,
+      "worries_about_money_percentage": 21,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -476,7 +554,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 43.9,
-      "65plus_percentage": 13.8
+      "65plus_percentage": 13.8,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 29
     }
   },
   {
@@ -488,7 +568,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 75,
-      "65plus_percentage": 36
+      "65plus_percentage": 36,
+      "worries_about_money_percentage": 1,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -500,7 +582,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 38,
-      "65plus_percentage": 25
+      "65plus_percentage": 25,
+      "worries_about_money_percentage": 7,
+      "has_debts_percentage": 4
     }
   },
   {
@@ -512,7 +596,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 34.4,
-      "65plus_percentage": 9.7
+      "65plus_percentage": 9.7,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 21
     }
   },
   {
@@ -524,7 +610,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 66.7,
-      "65plus_percentage": 32.4
+      "65plus_percentage": 32.4,
+      "worries_about_money_percentage": 1,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -536,7 +624,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 20,
       "high_level_of_education_percentage": 35.5,
-      "65plus_percentage": 28.7
+      "65plus_percentage": 28.7,
+      "worries_about_money_percentage": 13,
+      "has_debts_percentage": 17
     }
   },
   {
@@ -548,7 +638,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 21,
       "high_level_of_education_percentage": 41.8,
-      "65plus_percentage": 9.7
+      "65plus_percentage": 9.7,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 29
     }
   },
   {
@@ -560,7 +652,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 21,
       "high_level_of_education_percentage": 32.6,
-      "65plus_percentage": 12.4
+      "65plus_percentage": 12.4,
+      "worries_about_money_percentage": 18,
+      "has_debts_percentage": 29
     }
   },
   {
@@ -572,7 +666,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 19.4,
-      "65plus_percentage": 14.4
+      "65plus_percentage": 14.4,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 21
     }
   },
   {
@@ -584,7 +680,9 @@
       "unhappy_percentage": 11,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 43.6,
-      "65plus_percentage": 6.9
+      "65plus_percentage": 6.9,
+      "worries_about_money_percentage": 23,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -596,7 +694,9 @@
       "unhappy_percentage": 11,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 34.2,
-      "65plus_percentage": 12.7
+      "65plus_percentage": 12.7,
+      "worries_about_money_percentage": 23,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -608,7 +708,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 61,
-      "65plus_percentage": 7.9
+      "65plus_percentage": 7.9,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 29
     }
   },
   {
@@ -620,7 +722,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 69.8,
-      "65plus_percentage": 39.1
+      "65plus_percentage": 39.1,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -632,7 +736,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 56.9,
-      "65plus_percentage": 17.9
+      "65plus_percentage": 17.9,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -644,7 +750,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 24,
       "high_level_of_education_percentage": 25.3,
-      "65plus_percentage": 16.9
+      "65plus_percentage": 16.9,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -656,7 +764,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 28.7,
-      "65plus_percentage": 19.1
+      "65plus_percentage": 19.1,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -668,7 +778,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 30.8,
-      "65plus_percentage": 14.6
+      "65plus_percentage": 14.6,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -680,7 +792,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 23,
       "high_level_of_education_percentage": 64.6,
-      "65plus_percentage": 29.9
+      "65plus_percentage": 29.9,
+      "worries_about_money_percentage": 11,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -692,7 +806,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 60.6,
-      "65plus_percentage": 24.1
+      "65plus_percentage": 24.1,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 14
     }
   },
   {
@@ -704,7 +820,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 38,
-      "65plus_percentage": 21.4
+      "65plus_percentage": 21.4,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 14
     }
   },
   {
@@ -716,7 +834,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 49.7,
-      "65plus_percentage": 9.9
+      "65plus_percentage": 9.9,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 20
     }
   },
   {
@@ -728,7 +848,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 33.6,
-      "65plus_percentage": 35.4
+      "65plus_percentage": 35.4,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -740,7 +862,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 48.3,
-      "65plus_percentage": 10.7
+      "65plus_percentage": 10.7,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 30
     }
   },
   {
@@ -752,7 +876,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 24,
       "high_level_of_education_percentage": 28.6,
-      "65plus_percentage": 23.7
+      "65plus_percentage": 23.7,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -764,7 +890,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 62.2,
-      "65plus_percentage": 15.3
+      "65plus_percentage": 15.3,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 13
     }
   },
   {
@@ -776,7 +904,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 56.3,
-      "65plus_percentage": 10.9
+      "65plus_percentage": 10.9,
+      "worries_about_money_percentage": 13,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -788,7 +918,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 24,
       "high_level_of_education_percentage": 31.1,
-      "65plus_percentage": 10.8
+      "65plus_percentage": 10.8,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -800,7 +932,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 12,
       "high_level_of_education_percentage": 59.9,
-      "65plus_percentage": 7.6
+      "65plus_percentage": 7.6,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 29
     }
   },
   {
@@ -812,7 +946,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 0,
-      "65plus_percentage": 22.2
+      "65plus_percentage": 22.2,
+      "worries_about_money_percentage": 4,
+      "has_debts_percentage": 11
     }
   },
   {
@@ -824,7 +960,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 17,
       "high_level_of_education_percentage": 50.5,
-      "65plus_percentage": 10.5
+      "65plus_percentage": 10.5,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -836,7 +974,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 38.7,
-      "65plus_percentage": 13.6
+      "65plus_percentage": 13.6,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 30
     }
   },
   {
@@ -848,7 +988,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 18,
       "high_level_of_education_percentage": 53.7,
-      "65plus_percentage": 16.5
+      "65plus_percentage": 16.5,
+      "worries_about_money_percentage": 10,
+      "has_debts_percentage": 20
     }
   },
   {
@@ -860,7 +1002,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 59.5,
-      "65plus_percentage": 34.3
+      "65plus_percentage": 34.3,
+      "worries_about_money_percentage": 6,
+      "has_debts_percentage": 13
     }
   },
   {
@@ -872,7 +1016,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 40.9,
-      "65plus_percentage": 14.6
+      "65plus_percentage": 14.6,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 22
     }
   },
   {
@@ -884,7 +1030,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 66.1,
-      "65plus_percentage": 2
+      "65plus_percentage": 2,
+      "worries_about_money_percentage": 16,
+      "has_debts_percentage": 59
     }
   },
   {
@@ -896,7 +1044,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 36.4,
-      "65plus_percentage": 19.7
+      "65plus_percentage": 19.7,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -908,7 +1058,9 @@
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 33.5,
-      "65plus_percentage": 17.2
+      "65plus_percentage": 17.2,
+      "worries_about_money_percentage": 20,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -920,7 +1072,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 26,
       "high_level_of_education_percentage": 24,
-      "65plus_percentage": 25.3
+      "65plus_percentage": 25.3,
+      "worries_about_money_percentage": 11,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -932,7 +1086,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 25,
       "high_level_of_education_percentage": 14.8,
-      "65plus_percentage": 15.7
+      "65plus_percentage": 15.7,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 22
     }
   },
   {
@@ -944,7 +1100,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 22,
       "high_level_of_education_percentage": 50,
-      "65plus_percentage": 8.7
+      "65plus_percentage": 8.7,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 23
     }
   },
   {
@@ -956,7 +1114,9 @@
       "unhappy_percentage": 5,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 63.4,
-      "65plus_percentage": 23
+      "65plus_percentage": 23,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -968,7 +1128,9 @@
       "unhappy_percentage": 9,
       "prolonged_illness_percentage": 26,
       "high_level_of_education_percentage": 24.9,
-      "65plus_percentage": 18.5
+      "65plus_percentage": 18.5,
+      "worries_about_money_percentage": 15,
+      "has_debts_percentage": 21
     }
   },
   {
@@ -980,7 +1142,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 61.2,
-      "65plus_percentage": 16
+      "65plus_percentage": 16,
+      "worries_about_money_percentage": 1,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -992,7 +1156,9 @@
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 29,
       "high_level_of_education_percentage": 27,
-      "65plus_percentage": 22.7
+      "65plus_percentage": 22.7,
+      "worries_about_money_percentage": 21,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -1004,7 +1170,9 @@
       "unhappy_percentage": 4,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 63.1,
-      "65plus_percentage": 2.5
+      "65plus_percentage": 2.5,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 16
     }
   },
   {
@@ -1016,7 +1184,9 @@
       "unhappy_percentage": 10,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 43.9,
-      "65plus_percentage": 21.9
+      "65plus_percentage": 21.9,
+      "worries_about_money_percentage": 20,
+      "has_debts_percentage": 27
     }
   },
   {
@@ -1028,7 +1198,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 15,
       "high_level_of_education_percentage": 78.5,
-      "65plus_percentage": 9.4
+      "65plus_percentage": 9.4,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 20
     }
   },
   {
@@ -1040,7 +1212,9 @@
       "unhappy_percentage": 6,
       "prolonged_illness_percentage": 32,
       "high_level_of_education_percentage": 28.1,
-      "65plus_percentage": 20.4
+      "65plus_percentage": 20.4,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 15
     }
   },
   {
@@ -1052,7 +1226,9 @@
       "unhappy_percentage": 7,
       "prolonged_illness_percentage": 13,
       "high_level_of_education_percentage": 80.1,
-      "65plus_percentage": 13.2
+      "65plus_percentage": 13.2,
+      "worries_about_money_percentage": 14,
+      "has_debts_percentage": 19
     }
   },
   {
@@ -1064,7 +1240,9 @@
       "unhappy_percentage": 8,
       "prolonged_illness_percentage": 19,
       "high_level_of_education_percentage": 41.3,
-      "65plus_percentage": 7.6
+      "65plus_percentage": 7.6,
+      "worries_about_money_percentage": 19,
+      "has_debts_percentage": 32
     }
   },
   {
@@ -1076,7 +1254,9 @@
       "unhappy_percentage": 2,
       "prolonged_illness_percentage": 14,
       "high_level_of_education_percentage": 42.1,
-      "65plus_percentage": 15.1
+      "65plus_percentage": 15.1,
+      "worries_about_money_percentage": 8,
+      "has_debts_percentage": 9
     }
   },
   {
@@ -1088,7 +1268,9 @@
       "unhappy_percentage": 3,
       "prolonged_illness_percentage": 16,
       "high_level_of_education_percentage": 81.4,
-      "65plus_percentage": 3.7
+      "65plus_percentage": 3.7,
+      "worries_about_money_percentage": 12,
+      "has_debts_percentage": 22
     }
   }
 ]
