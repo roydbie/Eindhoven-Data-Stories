@@ -4,12 +4,18 @@ import json
 import requests
 from operator import itemgetter
 import numpy as np
+import sqlite3
+import os
+from dotenv import load_dotenv
+import openai
 
 import pandas as pd
 
 
 app = Flask(__name__)
 CORS(app)
+
+load_dotenv()
 
 
 @app.route('/publicreports/scatter/<category>', methods=['GET'])
@@ -167,7 +173,7 @@ def publicreportsBar(category, fewResidentsExcluded):
 
 
 @app.route('/incomevs', methods=['GET'])
-def income():
+def incomeandhealth():
 
     url_params = request.args
 
@@ -211,16 +217,92 @@ def income():
                 url_params['category2']), "r": (item.get("2020").get("residents")/100)}], "backgroundColor": backgroundColor, "borderColor": "white", "borderWidth": 1})
 
     return json.dumps({"data": bubbleChartData})
-    # return json.dumps(districtsArray)
 
 
-@ app.route('/test', methods=['GET'])
-def test():
-    df = pd.read_json('data.json').to_json(orient='records')
+@app.route('/incomevs/text', methods=['GET'])
+def incomeandhealthText():
 
-    dfData = json.loads(df)
+    url_params = request.args
 
-    return json.dumps(dfData)
+    con = sqlite3.connect('texts.db')
+    cur = con.cursor()
+
+    cur.execute('''CREATE TABLE IF NOT EXISTS texts
+                    (id int PRIMARY KEY , category1 text, category2 text, text text, score int)''')
+
+    cur.execute("SELECT text,score FROM texts WHERE category1=? AND category2=?",
+                (url_params["category1"], url_params["category2"],))
+
+    rows = cur.fetchall()
+
+    con.commit()
+
+    return json.dumps(rows[0][0])
+
+
+@app.route('/incomevs/score', methods=['GET'])
+def incomeandhealthScore():
+
+    url_params = request.args
+
+    con = sqlite3.connect('texts.db')
+    cur = con.cursor()
+
+    cur.execute('''CREATE TABLE IF NOT EXISTS texts
+                    (id int PRIMARY KEY , category1 text, category2 text, text text, score int)''')
+
+    cur.execute("SELECT text,score FROM texts WHERE category1=? AND category2=?",
+                (url_params["category1"], url_params["category2"],))
+
+    rows = cur.fetchall()
+
+    con.commit()
+
+    return json.dumps(rows[0][1])
+
+
+@app.route('/incomevs/updatescore', methods=['GET'])
+def incomeandhealthScoreUpdate():
+
+    url_params = request.args
+
+    con = sqlite3.connect('texts.db')
+    cur = con.cursor()
+
+    cur.execute("SELECT text,score FROM texts WHERE category1=? AND category2=?",
+                (url_params["category1"], url_params["category2"],))
+
+    rows = cur.fetchall()
+
+    if url_params["update"] == "plus":
+        cur.execute("UPDATE texts SET score=? WHERE text=?",
+                    (rows[0][1] + 1, rows[0][0],))
+    else:
+        cur.execute("UPDATE texts SET score=? WHERE text=?",
+                    (rows[0][1] - 1, rows[0][0],))
+
+    cur.execute("SELECT text,score FROM texts WHERE category1=? AND category2=?",
+                (url_params["category1"], url_params["category2"],))
+
+    rows = cur.fetchall()
+
+    for row in rows:
+        if row[1] <= -3:
+            openai.api_key = os.getenv("OPENAI_API_KEY")
+            completion = openai.Completion.create(
+                model="text-davinci-003",
+                prompt=f"\nQ: Generate a random word with 6 letters and only give back the word. First letter capital please.\n\nA: ",
+                temperature=1
+            )
+            cur.execute("UPDATE texts SET text=?,score=0 WHERE text=?",
+                        (completion.choices[0].text.strip(), row[0],))
+            cur.execute("SELECT text,score FROM texts WHERE category1=? AND category2=?",
+                        (url_params["category1"], url_params["category2"],))
+            rows = cur.fetchall()
+
+    con.commit()
+
+    return json.dumps(rows[0][1])
 
 
 if __name__ == '__main__':
