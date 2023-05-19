@@ -1,5 +1,8 @@
 import BubbleChart from "./BubbleChart";
 import { useState } from "react";
+import useFetch from "../../useFetch";
+import { useLocation } from "react-router-dom";
+import axios from "axios";
 
 function BubbleCategorySelect() {
   const [xCategory, setxCategory] = useState(
@@ -137,6 +140,57 @@ function BubbleCategorySelect() {
     }
   };
 
+  const location = useLocation();
+
+  const { data } = useFetch(
+    "http://127.0.0.1:7777" +
+      location.pathname +
+      "/text?category1=" +
+      xCategory +
+      "&category2=" +
+      yCategory
+  );
+
+  function handleThumbsDown() {
+    axios
+      .get(
+        "http://127.0.0.1:7777" +
+          location.pathname +
+          "/updatescore?category1=" +
+          xCategory +
+          "&category2=" +
+          yCategory +
+          "&update=minus",
+        {
+          method: "GET",
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
+      )
+      .then(() => window.location.reload(false));
+  }
+
+  function handleThumbsUp() {
+    axios
+      .get(
+        "http://127.0.0.1:7777" +
+          location.pathname +
+          "/updatescore?category1=" +
+          xCategory +
+          "&category2=" +
+          yCategory +
+          "&update=plus",
+        {
+          method: "GET",
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
+      )
+      .then(() => window.location.reload(false));
+  }
+
   return (
     <>
       <div className="row">
@@ -216,6 +270,29 @@ function BubbleCategorySelect() {
           })}
         </div>
       </div>
+      <h5 className="text-light mt-2 ps-2">
+        Open AI's opinion about the data:
+      </h5>
+      <p className="text-light my-2 ps-2" style={{ fontSize: "0.9rem" }}>
+        {data}
+      </p>
+      <h5 className="text-light mt-2 ps-2">
+        How do you think about this answer?
+      </h5>
+      <button
+        className="btn btn-success ms-2 mb-5"
+        style={{ fontSize: "0.9rem" }}
+        onClick={handleThumbsUp}
+      >
+        &#128077;
+      </button>
+      <button
+        className="btn btn-danger ms-2 mb-5"
+        style={{ fontSize: "0.9rem" }}
+        onClick={handleThumbsDown}
+      >
+        &#128078;
+      </button>
     </>
   );
 }

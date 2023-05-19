@@ -305,5 +305,72 @@ def incomeandhealthScoreUpdate():
     return json.dumps(rows[0][1])
 
 
+@app.route('/insertintodb', methods=['GET'])
+def insertintodb():
+
+    con = sqlite3.connect('texts.db')
+    cur = con.cursor()
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (1, "prolonged_illness_percentage", "unhappy_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (2, "prolonged_illness_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (3, "prolonged_illness_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (4, "prolonged_illness_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (5, "prolonged_illness_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (6, "prolonged_illness_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (8, "prolonged_illness_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (9, "unhappy_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (10, "unhappy_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (11, "unhappy_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (12, "unhappy_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (13, "unhappy_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (14, "unhappy_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (15, "unhappy_percentage", "unhappy_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (16, "high_level_of_education_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (17, "high_level_of_education_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (18, "high_level_of_education_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (19, "high_level_of_education_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (20, "high_level_of_education_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (21, "high_level_of_education_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (22, "high_level_of_education_percentage", "unhappy_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (23, "personal_income", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (24, "personal_income", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (25, "personal_income", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (26, "personal_income", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (27, "personal_income", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (28, "personal_income", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (29, "personal_income", "unhappy_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (30, "65plus_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (31, "65plus_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (32, "65plus_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (33, "65plus_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (34, "65plus_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (35, "65plus_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (36, "65plus_percentage", "unhappy_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (37, "worries_about_money_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (38, "worries_about_money_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (39, "worries_about_money_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (40, "worries_about_money_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (41, "worries_about_money_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (42, "worries_about_money_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (43, "worries_about_money_percentage", "unhappy_percentage", "boeie", 0)''')
+
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (44, "has_debts_percentage", "prolonged_illness_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (45, "has_debts_percentage", "high_level_of_education_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (46, "has_debts_percentage", "personal_income", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (47, "has_debts_percentage", "65plus_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (48, "has_debts_percentage", "worries_about_money_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (49, "has_debts_percentage", "has_debts_percentage", "boeie", 0)''')
+    cur.execute('''INSERT OR IGNORE INTO texts (id, category1, category2, text, score) VALUES (50, "has_debts_percentage", "unhappy_percentage", "boeie", 0)''')
+
+    con.commit()
+
+    return "done"
+
+
 if __name__ == '__main__':
     app.run(port=7777)
