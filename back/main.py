@@ -230,7 +230,7 @@ def incomeandhealthText():
     cur.execute('''CREATE TABLE IF NOT EXISTS texts
                     (id int PRIMARY KEY , category1 text, category2 text, text text, score int)''')
 
-    cur.execute('''SELECT text,score FROM texts WHERE category1=? AND category2=?''',
+    cur.execute('''SELECT text FROM texts WHERE category1=? AND category2=?''',
                 (url_params["category1"], url_params["category2"],))
 
     rows = cur.fetchall()
@@ -240,28 +240,7 @@ def incomeandhealthText():
     return json.dumps(rows[0][0])
 
 
-@app.route('/incomevs/score', methods=['GET'])
-def incomeandhealthScore():
-
-    url_params = request.args
-
-    con = sqlite3.connect('texts.db')
-    cur = con.cursor()
-
-    cur.execute('''CREATE TABLE IF NOT EXISTS texts
-                    (id int PRIMARY KEY , category1 text, category2 text, text text, score int)''')
-
-    cur.execute('''SELECT text,score FROM texts WHERE category1=? AND category2=?''',
-                (str(url_params["category1"]), str(url_params["category2"]),))
-
-    rows = cur.fetchall()
-
-    con.commit()
-
-    return json.dumps(rows[0][1])
-
-
-@app.route('/incomevs/updatescore', methods=['GET'])
+@app.route('/incomevs/updatetext', methods=['GET'])
 def incomeandhealthScoreUpdate():
 
     url_params = request.args
@@ -269,41 +248,27 @@ def incomeandhealthScoreUpdate():
     con = sqlite3.connect('texts.db')
     cur = con.cursor()
 
-    cur.execute('''SELECT text,score FROM texts WHERE category1=? AND category2=?''',
+    cur.execute('''SELECT id, text FROM texts WHERE category1=? AND category2=?''',
                 (url_params["category1"], url_params["category2"],))
 
     rows = cur.fetchall()
 
-    if url_params["update"] == "plus":
-        cur.execute('''UPDATE texts SET score=? WHERE text=?''',
-                    (rows[0][1] + 1, rows[0][0],))
-    else:
-        cur.execute('''UPDATE texts SET score=? WHERE text=?''',
-                    (rows[0][1] - 1, rows[0][0],))
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+    completion = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=f"\nQ: Generate a random word with 6 letters and only give back the word. First letter capital please.\n\nA: ",
+        temperature=1
+    )
+    cur.execute('''UPDATE texts SET text=? WHERE id=?''',
+                (completion.choices[0].text.strip(), rows[0][0],))
 
-    cur.execute('''SELECT text,score,id FROM texts WHERE category1=? AND category2=?''',
+    cur.execute('''SELECT text FROM texts WHERE category1=? AND category2=?''',
                 (url_params["category1"], url_params["category2"],))
-
     rows2 = cur.fetchall()
-
-    for row in rows2:
-        if row[1] <= -3:
-            openai.api_key = os.getenv("OPENAI_API_KEY")
-            completion = openai.Completion.create(
-                model="text-davinci-003",
-                prompt=f"\nQ: Generate a random word with 6 letters and only give back the word. First letter capital please.\n\nA: ",
-                temperature=1
-            )
-            cur.execute('''UPDATE texts SET text=?,score=0 WHERE id=?''',
-                        (completion.choices[0].text.strip(), row[2],))
-
-    cur.execute('''SELECT text,score FROM texts WHERE category1=? AND category2=?''',
-                (url_params["category1"], url_params["category2"],))
-    rows3 = cur.fetchall()
 
     con.commit()
 
-    return json.dumps(rows3[0][1])
+    return json.dumps(rows2[0][0])
 
 
 if __name__ == '__main__':
