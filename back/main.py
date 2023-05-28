@@ -1,31 +1,46 @@
 import pandas as pd
-import numpy as np
 
-# Read the CSV file
-df = pd.read_csv('data_clean.csv')
+def find_outliers(data_file):
+    # Read the CSV file
+    df = pd.read_csv(data_file)
 
-print(df)
+    Q1 = df.quantile(0.25)
+    Q3 = df.quantile(0.75)
+    IQR = Q3 - Q1
 
-#Calculate Q1, Q3, and IQR
-Q1 = df.quantile(0.25)
-Q3 = df.quantile(0.75)
+    # Set threshold at 1.5
+    threshold = 1.5
 
-print(Q1)
-print(Q3)
+    # Determine outliers
+    outliers = (df < Q1 - threshold * IQR) | (df > Q3 + threshold * IQR)
 
-IQR = Q3 - Q1
+    # Filter so that only outliers are shown
+    outliers_df = df[outliers]
 
-#print(IQR)
+    # Create an empty list to store the outlier information
+    outlier_info = []
 
-#set threshold at 1.5
-threshold = 1.5
+    # Iterate over each column in the DataFrame
+    for col in df.columns:
+        # Filter rows where the value is not NaN and is an outlier
+        col_outliers = outliers[col].dropna()
+        col_outliers = col_outliers[col_outliers]  # Exclude rows with false values
 
-#determine outliers
-outliers = (df < Q1 - threshold * IQR) | (df > Q3 + threshold * IQR)
+        # Iterate over each outlier in the column
+        for row, value in col_outliers.items():
+            # Get the neighbourhood value from the corresponding row in the original dataset
+            neighbourhood_value = df.loc[row, 'neighbourhood']
 
+            # Append outlier information to the outlier_info list
+            outlier_info.append({'Outlier_Row': row, 'Outlier_Column': col, 'Value': df.loc[row, col], 'neighbourhood': neighbourhood_value})
 
+    # Create the outliers_table DataFrame from the outlier_info list
+    outliers_table = pd.DataFrame(outlier_info)
 
+    return outliers_table
 
+# Usage example
+data_file = 'data_clean.csv'
 
-
-
+outliers_table = find_outliers(data_file)
+print(outliers_table)
