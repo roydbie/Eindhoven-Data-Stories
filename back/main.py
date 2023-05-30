@@ -271,5 +271,33 @@ def incomeandhealthScoreUpdate():
     return json.dumps(rows2[0][0])
 
 
+@app.route('/incomevs/outliers', methods=['GET'])
+def outliers():
+
+    url_params = request.args
+    df = pd.read_csv('data_clean.csv')
+    df[url_params["category"]].dropna()
+
+    Q1 = df[url_params["category"]].quantile(.25)
+    Q3 = df[url_params["category"]].quantile(.75)
+    IQR = Q3 - Q1
+
+    outliers = df[url_params["category"]][((df[url_params["category"]] < (
+        Q1-1.5*IQR)) | (df[url_params["category"]] > (Q3+1.5*IQR)))]
+
+    x = outliers.values.tolist()
+
+    array = []
+
+    for item in x:
+        x = df.loc[df[url_params["category"]]
+                   == item].reset_index(drop=True).to_dict()
+
+        array.append({"neighbourhood": x.get("neighbourhood").get(0),
+                     url_params["category"]: x.get(url_params["category"]).get(0)})
+
+    return array
+
+
 if __name__ == '__main__':
     app.run(port=7777)
