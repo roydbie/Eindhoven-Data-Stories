@@ -18,6 +18,7 @@ function OpenAiResponse(props) {
     );
     const jsonResult = await result.json();
     setText(jsonResult);
+    console.log(jsonResult);
   };
 
   fetchText();
@@ -50,7 +51,7 @@ function OpenAiResponse(props) {
         <h5 className="text-light mt-2 ps-2">
           Open AI's opinion about the data:
         </h5>
-        <p className="text-light my-2 ps-2" style={{ fontSize: "0.9rem" }}>
+        <p className="text-light my-2 ps-2 w-50" style={{ fontSize: "0.9rem" }}>
           {text}
         </p>
         <p className="text-light mt-2 ps-2">

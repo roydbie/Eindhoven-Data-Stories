@@ -253,14 +253,40 @@ def incomeandhealthScoreUpdate():
 
     rows = cur.fetchall()
 
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    completion = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=f"\nQ: Generate a random word with 10 letters and only give back the word. First letter capital please.\n\nA: ",
-        temperature=1
-    )
-    cur.execute('''UPDATE texts SET text=? WHERE id=?''',
-                (completion.choices[0].text.strip(), rows[0][0],))
+    df = pd.read_csv('data_clean.csv')
+    df[url_params["category1"]].dropna()
+
+    Q1 = df[url_params["category1"]].quantile(.25)
+    Q3 = df[url_params["category1"]].quantile(.75)
+    IQR = Q3 - Q1
+
+    outliers = df[url_params["category1"]][((df[url_params["category1"]] < (
+        Q1-1.5*IQR)) | (df[url_params["category1"]] > (Q3+1.5*IQR)))]
+
+    x = outliers.values.tolist()
+
+    array = []
+
+    for item in x:
+        x = df.loc[df[url_params["category1"]]
+                   == item].reset_index(drop=True).to_dict()
+
+        array.append({"neighbourhood": x.get("neighbourhood").get(0),
+                     url_params["category1"]: x.get(url_params["category1"]).get(0)})
+
+    if array != []:
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        completion = openai.Completion.create(
+            model="text-davinci-003",
+            prompt=f"\nQ: We are calculating outliers from a dataset. The complete dataset consists of 116 neighbourhoods. At the end of this prompt i will give you an json array of outliers with the neighbourhood name and the value of the outlier. The subject of this analysis is {url_params['category1']}. Can you create a simple text to summarize what we analyzed? Maximum 150 words. This is the array of outliers: {array}.\n\nA: ",
+            temperature=0.8,
+            max_tokens=500
+        )
+        cur.execute('''UPDATE texts SET text=? WHERE id=?''',
+                    (completion.choices[0].text, rows[0][0],))
+    else:
+        cur.execute('''UPDATE texts SET text=? WHERE id=?''',
+                    ("No outliers were detected.", rows[0][0],))
 
     cur.execute('''SELECT text FROM texts WHERE category1=? AND category2=?''',
                 (url_params["category1"], url_params["category2"],))
