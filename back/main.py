@@ -256,7 +256,7 @@ def incomeandhealthScoreUpdate():
     openai.api_key = os.getenv("OPENAI_API_KEY")
     completion = openai.Completion.create(
         model="text-davinci-003",
-        prompt=f"\nQ: Generate a random word with 6 letters and only give back the word. First letter capital please.\n\nA: ",
+        prompt=f"\nQ: Generate a random word with 10 letters and only give back the word. First letter capital please.\n\nA: ",
         temperature=1
     )
     cur.execute('''UPDATE texts SET text=? WHERE id=?''',

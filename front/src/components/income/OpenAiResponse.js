@@ -53,9 +53,9 @@ function OpenAiResponse(props) {
         <p className="text-light my-2 ps-2" style={{ fontSize: "0.9rem" }}>
           {text}
         </p>
-        <h5 className="text-light mt-2 ps-2">
-          How do you think about this answer?
-        </h5>
+        <p className="text-light mt-2 ps-2">
+          Does this response not make sense?
+        </p>
         <button
           className="btn btn-success ms-2 mb-5"
           style={{ fontSize: "0.9rem" }}
