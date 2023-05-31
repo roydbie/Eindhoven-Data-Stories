@@ -9,16 +9,24 @@ function Incomevs() {
           <Link
             to="/"
             className="btn btn-sm btn-outline-light mb-3"
-            style={{ display: "inline-block" }}
+            style={{ display: "none" }}
           >
             <i className="bi bi-arrow-left"></i>
           </Link>
           <h1
-            className="text-light ms-5"
+            className="text-light"
             style={{ display: "inline-block", marginBottom: 0 }}
           >
-            Income & health
+            Eindhoven Data Stories
           </h1>
+          <p className="text-light w-50 my-2" style={{ fontSize: "0.9rem" }}>
+            In this lead generation tool we aim to uncover valuable insights
+            from the vast collection of open data in Eindhoven. The tool
+            automates the discovery of outliers within datasets, making this
+            information accessible for everyone interested. Explore the
+            generated stories below to gain intriguing leads for further
+            investigation.
+          </p>
         </div>
       </div>
       <div className="row">

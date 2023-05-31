@@ -8,10 +8,10 @@ function BubbleCategorySelect() {
   );
   const [yCategory, setyCategory] = useState("personal_income");
   const [xAxis, setxAxis] = useState(
-    "Percentage of people with a high level of education"
+    "Percentage of people with a high level of education (in %)"
   );
   const [yAxis, setyAxis] = useState(
-    "Average personal income per income recipient"
+    "Average personal income per income recipient (in euros)"
   );
 
   function selectChangeX(event) {
@@ -34,37 +34,37 @@ function BubbleCategorySelect() {
     {
       value: "prolonged_illness_percentage",
       text: "Long term illness percentage",
-      xText: "Percentage of people with a long-term illness",
+      xText: "Percentage of people with a long-term illness (in %)",
     },
     {
       value: "unhappy_percentage",
       text: "Unhappy percentage",
-      xText: "Percentage of unhappy people",
+      xText: "Percentage of unhappy people (in %)",
     },
     {
       value: "high_level_of_education_percentage",
       text: "High level of education percentage",
-      xText: "Percentage of people with a high level of education",
+      xText: "Percentage of people with a high level of education (in %)",
     },
     {
       value: "personal_income",
       text: "Personal income",
-      xText: "Average personal income per income recipient",
+      xText: "Average personal income per income recipient (in euros)",
     },
     {
       value: "65plus_percentage",
       text: "Residents above 65 years of age",
-      xText: "Percentage of residents above 65 years of age",
+      xText: "Percentage of residents above 65 years of age  (in %)",
     },
     {
       value: "worries_about_money_percentage",
       text: "Residents worried about money percentage",
-      xText: "Percentage of residents who are worried about money",
+      xText: "Percentage of residents who are worried about money (in %)",
     },
     {
       value: "has_debts_percentage",
       text: "Residents with debt percentage",
-      xText: "Percentage of residents with debt",
+      xText: "Percentage of residents with debt (in %)",
     },
   ];
   categories.sort((a, b) => a.text.localeCompare(b.text));
@@ -142,7 +142,7 @@ function BubbleCategorySelect() {
     <>
       <div className="row">
         <div className="col-3">
-          <h5 className="text-light mt-2 ps-2">Select x-axis data:</h5>
+          <h5 className="text-light mt-2 ps-2">Select y-axis data:</h5>
           <select
             className="form-select mt-2"
             style={{ fontSize: "0.9rem" }}
@@ -159,7 +159,7 @@ function BubbleCategorySelect() {
           </select>
         </div>
         <div className="col-3">
-          <h5 className="text-light mt-2 ps-2">Select y-axis data:</h5>
+          <h5 className="text-light mt-2 ps-2">Select x-axis data:</h5>
           <select
             className="form-select mt-2"
             style={{ fontSize: "0.9rem" }}
@@ -175,7 +175,15 @@ function BubbleCategorySelect() {
             })}
           </select>
         </div>
-        <div className="col-3">jooo</div>
+        <div className="col-3">
+          <h5 className="text-light mt-2 ps-2">Size of the data points:</h5>
+          <p
+            className="text-light"
+            style={{ fontSize: "0.9rem", paddingTop: 6 }}
+          >
+            Amount of residents in neighbourhood
+          </p>
+        </div>
       </div>
       <div className="row" style={{ width: "100%", margin: 0 }}>
         <div className="col-10">

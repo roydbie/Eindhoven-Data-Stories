@@ -276,14 +276,15 @@ def incomeandhealthScoreUpdate():
 
     if array != []:
         openai.api_key = os.getenv("OPENAI_API_KEY")
-        completion = openai.Completion.create(
-            model="text-davinci-003",
-            prompt=f"\nQ: We are calculating outliers from a dataset. The complete dataset consists of 116 neighbourhoods in Eindhoven. At the end of this prompt i will give you an json array of outliers with the neighbourhood name and the value of the outlier. The subject of this analysis is {url_params['category1']}. Can you create a simple text to summarize what we analyzed? Maximum 150 words. This is the array of outliers: {array}.\n\nA: ",
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "user", "content": f"\nWe are calculating outliers from a dataset. The complete dataset consists of 116 neighbourhoods in Eindhoven. At the end of this prompt i will give you an json array of outliers with the neighbourhood name and the value of the outlier. The subject of this analysis is {url_params['category1']}. Can you create a simple text to summarize what we analyzed? Maximum 150 words. This is the array of outliers: {array}. "}],
             temperature=0.8,
             max_tokens=500
         )
         cur.execute('''UPDATE texts SET text=? WHERE id=?''',
-                    (completion.choices[0].text, rows[0][0],))
+                    (completion.choices[0].message.content, rows[0][0],))
     else:
         cur.execute('''UPDATE texts SET text=? WHERE id=?''',
                     ("No outliers were detected.", rows[0][0],))
