@@ -1,7 +1,6 @@
 import Topics from "../components/Topics";
 import DataLead from "../components/DataLead";
 import { useState } from "react";
-const { Configuration, OpenAIApi } = require("openai");
 
 function Index() {
   const DataLeads = [
@@ -79,32 +78,6 @@ function Index() {
   function TopicChange(topics) {
     updateTopics(topics);
   }
-
-  const configuration = new Configuration({
-    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
-  });
-  delete configuration.baseOptions.headers["User-Agent"];
-
-  const openai = new OpenAIApi(configuration);
-  const prompt = "The neighbourhood ";
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const result = await openai.createCompletion({
-        model: "text-davinci-003",
-        prompt: prompt,
-        temperature: 0.5,
-        max_tokens: 4000,
-      });
-      console.log(result.data.choices[0].text);
-      //setApiResponse(result.data.choices[0].text);
-    } catch (e) {
-      console.log(e);
-      //setApiResponse("Something is going wrong, Please try again.");
-    }
-  };
-
   return (
     <>
       <div className="w-100" style={{ height: 50 }}>
@@ -128,9 +101,6 @@ function Index() {
                 ></DataLead>
               ))}
           </div>
-          <button className="btn btn-primary" onClick={handleSubmit}>
-            OpenAI
-          </button>
         </div>
       </div>
     </>

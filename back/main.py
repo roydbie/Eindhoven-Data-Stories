@@ -278,7 +278,7 @@ def incomeandhealthScoreUpdate():
         openai.api_key = os.getenv("OPENAI_API_KEY")
         completion = openai.Completion.create(
             model="text-davinci-003",
-            prompt=f"\nQ: We are calculating outliers from a dataset. The complete dataset consists of 116 neighbourhoods. At the end of this prompt i will give you an json array of outliers with the neighbourhood name and the value of the outlier. The subject of this analysis is {url_params['category1']}. Can you create a simple text to summarize what we analyzed? Maximum 150 words. This is the array of outliers: {array}.\n\nA: ",
+            prompt=f"\nQ: We are calculating outliers from a dataset. The complete dataset consists of 116 neighbourhoods in Eindhoven. At the end of this prompt i will give you an json array of outliers with the neighbourhood name and the value of the outlier. The subject of this analysis is {url_params['category1']}. Can you create a simple text to summarize what we analyzed? Maximum 150 words. This is the array of outliers: {array}.\n\nA: ",
             temperature=0.8,
             max_tokens=500
         )
