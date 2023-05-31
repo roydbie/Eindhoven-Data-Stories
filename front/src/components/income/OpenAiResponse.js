@@ -9,8 +9,7 @@ function OpenAiResponse(props) {
 
   const fetchText = async () => {
     const result = await fetch(
-      "http://127.0.0.1:7777" +
-        location.pathname +
+      location.pathname +
         "/text?category1=" +
         props.xCategory +
         "&category2=" +
@@ -26,8 +25,7 @@ function OpenAiResponse(props) {
   const updateText = async () => {
     setLoading(true);
     const result = await fetch(
-      "http://127.0.0.1:7777" +
-        location.pathname +
+      location.pathname +
         "/updatetext?category1=" +
         props.xCategory +
         "&category2=" +

@@ -59,7 +59,7 @@ function ScatterChart(props) {
   const location = useLocation();
 
   const { data, loading, error } = useFetch(
-    "http://127.0.0.1:7777" + location.pathname + "/scatter/" + props.category
+    location.pathname + "/scatter/" + props.category
   );
   if (loading)
     return (

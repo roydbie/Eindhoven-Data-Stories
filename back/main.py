@@ -2,7 +2,6 @@ from flask import *
 from flask_cors import CORS
 import json
 import requests
-from operator import itemgetter
 import numpy as np
 import sqlite3
 import os
@@ -18,7 +17,7 @@ CORS(app)
 load_dotenv()
 
 
-@app.route('/publicreports/scatter/<category>', methods=['GET'])
+@app.route('/api/publicreports/scatter/<category>', methods=['GET'])
 def publicreportsScatter(category):
     main_data_array = []
 
@@ -84,7 +83,7 @@ def publicreportsScatter(category):
     return json.dumps({"data": {"datasets": scatterChartData}})
 
 
-@app.route('/publicreports/bar/<category>/<fewResidentsExcluded>', methods=['GET'])
+@app.route('/api/publicreports/bar/<category>/<fewResidentsExcluded>', methods=['GET'])
 def publicreportsBar(category, fewResidentsExcluded):
 
     main_data_array = np.array([])
@@ -172,7 +171,7 @@ def publicreportsBar(category, fewResidentsExcluded):
     return json.dumps({"data": barChartData})
 
 
-@app.route('/incomevs', methods=['GET'])
+@app.route('/api/incomevs', methods=['GET'])
 def incomeandhealth():
 
     url_params = request.args
@@ -219,7 +218,7 @@ def incomeandhealth():
     return json.dumps({"data": bubbleChartData})
 
 
-@app.route('/incomevs/text', methods=['GET'])
+@app.route('/api/incomevs/text', methods=['GET'])
 def incomeandhealthText():
 
     url_params = request.args
@@ -240,7 +239,7 @@ def incomeandhealthText():
     return json.dumps(rows[0][0])
 
 
-@app.route('/incomevs/updatetext', methods=['GET'])
+@app.route('/api/incomevs/updatetext', methods=['GET'])
 def incomeandhealthScoreUpdate():
 
     url_params = request.args
@@ -298,7 +297,7 @@ def incomeandhealthScoreUpdate():
     return json.dumps(rows2[0][0])
 
 
-@app.route('/incomevs/outliers', methods=['GET'])
+@app.route('/api/incomevs/outliers', methods=['GET'])
 def outliers():
 
     url_params = request.args
