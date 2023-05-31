@@ -63,8 +63,7 @@ function BubbleChart(props) {
   const location = useLocation();
 
   const { data, loading, error } = useFetch(
-    location.pathname +
-      "?category1=" +
+    "https://eindhoven-data-stories.azurewebsites.net/api/incomevs?category1=" +
       props.xCategory +
       "&category2=" +
       props.yCategory +

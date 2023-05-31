@@ -9,8 +9,7 @@ function OpenAiResponse(props) {
 
   const fetchText = async () => {
     const result = await fetch(
-      location.pathname +
-        "/text?category1=" +
+      "https://eindhoven-data-stories.azurewebsites.net/api/incomevs/text?category1=" +
         props.xCategory +
         "&category2=" +
         props.yCategory
@@ -25,8 +24,7 @@ function OpenAiResponse(props) {
   const updateText = async () => {
     setLoading(true);
     const result = await fetch(
-      location.pathname +
-        "/updatetext?category1=" +
+      "https://eindhoven-data-stories.azurewebsites.net/api/incomevs/updatetext?category1=" +
         props.xCategory +
         "&category2=" +
         props.yCategory

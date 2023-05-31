@@ -12,13 +12,13 @@ function App() {
         &nbsp;
       </div>
       <Routes>
-        <Route path="/" element={<Index></Index>}></Route>
+        <Route path="/" element={<Incomevs></Incomevs>}></Route>
         <Route
           path="publicreports"
           element={<PublicReports></PublicReports>}
         ></Route>
         <Route path="playgrounds" element={<Playgrounds></Playgrounds>}></Route>
-        <Route path="incomevs" element={<Incomevs></Incomevs>}></Route>
+        <Route path="incomevs" element={<Index></Index>}></Route>
       </Routes>
     </BrowserRouter>
   );
