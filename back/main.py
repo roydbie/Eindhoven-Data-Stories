@@ -1,9 +1,11 @@
 import pandas as pd
 
-def find_outliers(data_file):
-    # Read the CSV file
-    df = pd.read_csv(data_file)
+data_file = 'data_clean.csv'
+# Read the CSV file
+df = pd.read_csv(data_file)
 
+def find_outliers(df):
+   
     Q1 = df.quantile(0.25)
     Q3 = df.quantile(0.75)
     IQR = Q3 - Q1
@@ -39,8 +41,19 @@ def find_outliers(data_file):
 
     return outliers_table
 
-# Usage example
-data_file = 'data_clean.csv'
 
-outliers_table = find_outliers(data_file)
+
+outliers_table = find_outliers(df)
 print(outliers_table)
+
+#imput
+variable_x="personal_income"
+variable_y="unhappy_percentage"
+
+correlation_matrix = df[[variable_x, variable_y]].corr()
+correlation_coef = correlation_matrix.loc[variable_x, variable_y]
+
+correlation_coef_rounded = "{:.2f}".format(correlation_coef)
+
+print(correlation_coef_rounded)
+
