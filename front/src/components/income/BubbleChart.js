@@ -7,7 +7,6 @@ import {
 } from "chart.js";
 import { Bubble } from "react-chartjs-2";
 import useFetch from "../../useFetch";
-import { useLocation } from "react-router-dom";
 
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend);
 
@@ -60,10 +59,9 @@ function BubbleChart(props) {
     },
   };
 
-  const location = useLocation();
-
   const { data, loading, error } = useFetch(
-    "https://eindhoven-data-stories.azurewebsites.net/api/incomevs?category1=" +
+    "http://127.0.0.1:7777/api/incomevs" +
+      "?category1=" +
       props.xCategory +
       "&category2=" +
       props.yCategory +

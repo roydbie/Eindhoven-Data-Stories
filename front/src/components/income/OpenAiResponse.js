@@ -1,15 +1,13 @@
-import { useLocation } from "react-router-dom";
 import { useState } from "react";
 
 function OpenAiResponse(props) {
-  const location = useLocation();
-
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
 
   const fetchText = async () => {
     const result = await fetch(
-      "https://eindhoven-data-stories.azurewebsites.net/api/incomevs/text?category1=" +
+      "http://127.0.0.1:7777/api/incomevs/text" +
+        "?category1=" +
         props.xCategory +
         "&category2=" +
         props.yCategory
@@ -24,7 +22,8 @@ function OpenAiResponse(props) {
   const updateText = async () => {
     setLoading(true);
     const result = await fetch(
-      "https://eindhoven-data-stories.azurewebsites.net/api/incomevs/updatetext?category1=" +
+      "http://127.0.0.1:7777/api/incomevs/updatetext" +
+        "?category1=" +
         props.xCategory +
         "&category2=" +
         props.yCategory
